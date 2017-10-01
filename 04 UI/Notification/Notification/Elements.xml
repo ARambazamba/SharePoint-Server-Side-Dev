@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Description="Notification"
+    Id="Contoso.Ribbon.Library.Notification"
+    Location="CommandUI.Ribbon">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+          Location="Ribbon.Library.Share.Controls._children">
+          <Button
+            Id="Contoso.Ribbon.Library.NotificationButton"
+            Command="Contoso.Notification"
+            Image32by32="/_layouts/images/HTML32.GIF"
+            LabelText="Notification"
+            TemplateAlias="o2"
+            Sequence="20" />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+          Command="Contoso.Notification"
+          CommandAction="javascript:SP.UI.Notify.addNotification('Custom notification...', false);" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+</Elements>

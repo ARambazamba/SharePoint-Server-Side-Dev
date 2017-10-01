@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{eb2402e0-a0de-4e31-a5bf-edecfa77578c}"
+       Name="RentalState"
+       DisplayName="Rental Statey"
+       Type="Choice"
+       Required="FALSE"
+       Group="Custom Site Columns">
+    <CHOICES>
+      <CHOICE>Reserved</CHOICE>
+      <CHOICE>In Use</CHOICE>
+      <CHOICE>Cleaning</CHOICE>
+    </CHOICES>
+  </Field>
+</Elements>

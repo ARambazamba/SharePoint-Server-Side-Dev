@@ -1,0 +1,5 @@
+obj\Debug\_BudgetApprovalWorkflow.g.cs
+obj\Debug\Workflow.g.cs
+obj\Debug\BudgetApprovalWorkflow.BudgetApprovalWorkflow_Workflow_BeforeInitializeComponentHelper.cs
+obj\Debug\_AssemblyInfo_6774c80016024ea9a9d3e0744590564b.g.cs
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.BudgetApprovalWorkflow_Workflow_CompiledExpressionRoot.cs

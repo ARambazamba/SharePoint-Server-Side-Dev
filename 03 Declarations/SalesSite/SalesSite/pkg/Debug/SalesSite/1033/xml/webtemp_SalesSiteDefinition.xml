@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Templates xmlns:ows="Microsoft SharePoint">
+  <Template Name="SalesSiteDefinition" ID="12000">
+    <Configuration ID="0" Title="Sales Site" Hidden="FALSE" ImageUrl="/_layouts/images/CPVW.gif" Description="A site for Contoso sales teams." DisplayCategory="Contoso Sites">
+    </Configuration>
+  </Template>
+</Templates>

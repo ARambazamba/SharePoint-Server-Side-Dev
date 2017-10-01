@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+     Id="Integrations.CustomWS"
+     Description=""
+     Title="Test Custom WS"
+     GroupId="SiteActions"
+     Location="Microsoft.SharePoint.StandardMenu"
+     Sequence="10">
+    <UrlAction Url="~site/_layouts/CustomWS/ServiceTester.aspx"/>
+  </CustomAction>
+</Elements>

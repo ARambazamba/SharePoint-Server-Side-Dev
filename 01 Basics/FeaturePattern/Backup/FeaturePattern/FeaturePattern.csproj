@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{50071DEE-E5E1-4BBF-A1B9-769DB9252BD9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FeaturePattern</RootNamespace>
+    <AssemblyName>FeaturePattern</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>15.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <ActiveDeploymentConfiguration>No Activation</ActiveDeploymentConfiguration>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ControlTemplates\FeaturePattern\UserControl1.ascx.cs">
+      <DependentUpon>UserControl1.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ControlTemplates\FeaturePattern\UserControl1.ascx.designer.cs">
+      <DependentUpon>UserControl1.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\Feature1\Feature1.EventReceiver.cs">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\FeaturePattern\ApplicationPage1.aspx.cs">
+      <DependentUpon>ApplicationPage1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\FeaturePattern\ApplicationPage1.aspx.designer.cs">
+      <DependentUpon>ApplicationPage1.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layouts\FeaturePattern\ApplicationPage2.aspx.cs">
+      <DependentUpon>ApplicationPage2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\FeaturePattern\ApplicationPage2.aspx.designer.cs">
+      <DependentUpon>ApplicationPage2.aspx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MyVisualWebPart\MyVisualWebPart.ascx.cs">
+      <DependentUpon>MyVisualWebPart.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="MyVisualWebPart\MyVisualWebPart.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MyVisualWebPart.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ControlTemplates\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d97b96d8-1e33-44c4-bb0e-dda7a1377e31}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{138c0836-5e49-4a80-a7a6-52ab3050a8d4}</FeatureId>
+    </None>
+    <None Include="ISAPI\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{10ed6205-a170-4c41-b3e4-ef68738f4a24}</SharePointProjectItemId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2e9ad237-1b69-4c26-bee5-c360cfe4a3a4}</SharePointProjectItemId>
+    </None>
+    <None Include="MySuperList\MySuperListInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{630b046b-8a83-4572-a7f2-c8b154c080f1}</SharePointProjectItemId>
+    </None>
+    <None Include="MySuperList\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{fe1bb877-a581-444d-86d3-bd84eac3edaf}</SharePointProjectItemId>
+    </None>
+    <None Include="MyVisualWebPart\MyVisualWebPart.webpart" />
+    <None Include="MyVisualWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{54ae07a3-1d47-4bab-af50-2656d63c7098}</SharePointProjectItemId>
+    </None>
+    <None Include="Package\Package.package">
+      <PackageId>{2d1cff03-4f0a-4bce-be7e-5dcda5c0e86d}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ISAPI\FeaturePattern\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ControlTemplates\FeaturePattern\UserControl1.ascx" />
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
+    <Content Include="Layouts\FeaturePattern\ApplicationPage1.aspx" />
+    <Content Include="Layouts\FeaturePattern\ApplicationPage2.aspx" />
+    <Content Include="MySuperList\Elements.xml" />
+    <Content Include="MySuperList\MySuperListInstance\Elements.xml" />
+    <Content Include="MySuperList\Schema.xml" />
+    <Content Include="MyVisualWebPart\Elements.xml" />
+    <Content Include="MyVisualWebPart\MyVisualWebPart.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>MyVisualWebPart.ascx.g.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+  <Field
+       ID="{8061f112-6339-4851-a846-8fb7b3e8cf3f}"
+       Name="Breed"
+       DisplayName="Breed"
+       Type="Choice"
+       Required="FALSE"
+       Group="Integrations">
+    <CHOICES>
+      <CHOICE>Whippet</CHOICE>
+      <CHOICE>Greyhound</CHOICE>
+      <CHOICE>Saluki</CHOICE>
+      <CHOICE>Azawakh</CHOICE>
+    </CHOICES>
+    <Default>Whippet</Default>
+  </Field>
+</Elements>

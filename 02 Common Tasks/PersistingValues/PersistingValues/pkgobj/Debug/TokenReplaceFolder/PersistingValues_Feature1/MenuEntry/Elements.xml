@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="Integrations.PersistValuesMenuEntry"
+     Title="Persisting Values Demo"
+     ImageUrl="/_layouts/images/actionssettings.gif"
+     GroupId="SiteActions"
+     Location="Microsoft.SharePoint.StandardMenu"
+     Sequence="1001"
+     Rights="DeleteListItems"
+     Description="User SharePoint Notifications">
+    <UrlAction Url="~site/_layouts/15/PersistingValues/ValuesPage.aspx"/>
+  </CustomAction>
+</Elements>

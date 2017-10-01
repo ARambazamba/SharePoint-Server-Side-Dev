@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="ef51eab5-89f7-4f36-97ed-bb42f5954ab5" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="PersistValues.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\PersistingValues\ValuesPage.aspx" />
+    <TemplateFile Location="CONTROLTEMPLATES\PersistingValues\ucPersistingValues.ascx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="PersistingValues_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

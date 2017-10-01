@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="PersistingValuesFeature" AlwaysForceInstall="TRUE" Id="094d91b5-fc69-40e3-a700-aedda401380d" ReceiverAssembly="PersistValues, Version=1.0.0.0, Culture=neutral, PublicKeyToken=e2bf21b6205b4482" ReceiverClass="PersistingValues.Features.Feature1.Feature1EventReceiver" Scope="Web">
+  <ElementManifests>
+    <ElementManifest Location="MenuEntry\Elements.xml" />
+  </ElementManifests>
+</Feature>

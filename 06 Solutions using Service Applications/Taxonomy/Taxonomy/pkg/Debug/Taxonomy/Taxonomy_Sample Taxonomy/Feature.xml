@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="Sample Taxonomy" Id="17b59df2-07ae-4a3c-811d-16c0bdeb9d99" Scope="Web">
+  <ElementManifests>
+    <ElementManifest Location="Breed\Elements.xml" />
+    <ElementManifest Location="Dog\Elements.xml" />
+    <ElementManifest Location="DogsInstance\Elements.xml" />
+    <ElementManifest Location="Dogs\Elements.xml" />
+    <ElementFile Location="Dogs\Schema.xml" />
+    <ElementManifest Location="ItemAddedDummy\Elements.xml" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,7 @@
+﻿<WorkflowDefinition xmlns="http://schemas.microsoft.com/sharepoint/2012/app/workflow">
+  <Description>My 'BudgetApprovalWorkflow' Workflow</Description>
+  <DisplayName>BudgetApprovalWorkflow</DisplayName>
+  <Id>960eedac-b448-483c-845f-aabcfeb4e556</Id>
+  <RestrictAssociationToId>Lists/BudgetRequest</RestrictAssociationToId>
+  <RestrictAssociationToType>List</RestrictAssociationToType>
+</WorkflowDefinition>

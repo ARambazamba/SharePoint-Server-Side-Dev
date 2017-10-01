@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="660a44c3-fceb-47d4-a219-c2e6639cf438" Scope="Web" Title="StatusBarMessage Feature1">
+  <ElementManifests>
+    <ElementManifest Location="InformationBar\Elements.xml" />
+  </ElementManifests>
+</Feature>

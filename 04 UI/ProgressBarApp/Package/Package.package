@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="d40ac037-4b2d-4a15-96b1-b27f421ac7b7" 
+        solutionId="d40ac037-4b2d-4a15-96b1-b27f421ac7b7" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="ProgressBarApp"
+        sharePointProductVersion="15.0">
+  <features>
+        <featureReference itemId="6884a15c-f194-49f0-adde-80b06fe48da4" />
+  </features>
+</package>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="00e30b6c-f75b-4bd8-a944-5a65993cbaac" solutionId="00e30b6c-f75b-4bd8-a944-5a65993cbaac" resetWebServer="false" sharePointProductVersion="15.0" name="Notification" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="01f2452c-5409-4a27-96a3-5c00d3a5842b" />
+  </features>
+</package>

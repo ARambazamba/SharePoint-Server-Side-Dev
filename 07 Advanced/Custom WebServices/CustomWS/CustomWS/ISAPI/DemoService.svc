@@ -1,0 +1,6 @@
+﻿<%@ ServiceHost Language="C#" Debug="true"
+    Service="CustomWS.DemoService, $SharePoint.Project.AssemblyFullName$"
+    CodeBehind="DemoService.svc.cs"
+    Factory="Microsoft.SharePoint.Client.Services.MultipleBaseAddressWebServiceHostFactory,
+    Microsoft.SharePoint.Client.ServerRuntime, Version=15.0.0.0, Culture=neutral,
+    PublicKeyToken=71e9bce111e9429c" %>

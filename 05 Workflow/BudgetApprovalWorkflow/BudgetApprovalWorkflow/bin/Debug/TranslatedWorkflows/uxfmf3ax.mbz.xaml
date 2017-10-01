@@ -1,0 +1,264 @@
+<Activity mc:Ignorable="sads" x:Class="BudgetApprovalWorkflow.BudgetApprovalWorkflow.Workflow"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:made="clr-namespace:Microsoft.Activities.Design.ExpressionTranslation;assembly=Microsoft.Activities.Design"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:mca="clr-namespace:Microsoft.CSharp.Activities;assembly=System.Activities"
+ xmlns:p="http://schemas.microsoft.com/workflow/2012/07/xaml/activities"
+ xmlns:p1="wf://workflow.windows.net/$Activities"
+ xmlns:s="clr-namespace:System;assembly=mscorlib"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Sequence sads:DebugSymbol.Symbol="9xCaLzv7IQqpnVz7cpVw6+oGhQFjOlx1c2Vyc1xtZHNcZG9jdW1lbnRzXHZpc3VhbCBzdHVkaW8gMjAxM1xQcm9qZWN0c1xCdWRnZXRBcHByb3ZhbFdvcmtmbG93XEJ1ZGdldEFwcHJvdmFsV29ya2Zsb3dcQnVkZ2V0QXBwcm92YWxXb3JrZmxvd1xXb3JrZmxvdy54YW1sDyoD7AEOAgEBMAVEGwIBO0UFUBwCATZRBeoBCgIBAlgJcB0CATFzCegBFAIBBWkPbS0CATR0C4wBHwIBLI0BC6gBGwIBE6kBC+cBEAIBBoUBEYkBLwIBL7ABD8kBIwIBDswBD+UBIwIBCcEBFcUBMwIBEd0BFeEBMwIBDA==">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="p:DynamicValue" x:Name="__ReferenceID0" Name="dv_0" />
+      <Variable x:TypeArguments="x:Double" x:Name="__ReferenceID1" Name="BudgetAmount" />
+      <Variable x:TypeArguments="x:Int32" x:Name="__ReferenceID2" Name="outcome_0" />
+    </Sequence.Variables>
+    <p1:LookupSPListItem ItemGuid="{x:Null}" Properties="{x:Null}" DisplayName="LookupCurrentSPListItem">
+      <p1:LookupSPListItem.ItemId>
+        <InArgument x:TypeArguments="x:Int32">
+          <p:ExpressionContainerValue x:TypeArguments="x:Int32">
+            <p1:GetCurrentItemId />
+          </p:ExpressionContainerValue>
+        </InArgument>
+      </p1:LookupSPListItem.ItemId>
+      <p1:LookupSPListItem.ListId>
+        <InArgument x:TypeArguments="s:Guid">
+          <p:ExpressionContainerValue x:TypeArguments="s:Guid">
+            <p1:GetCurrentListId />
+          </p:ExpressionContainerValue>
+        </InArgument>
+      </p1:LookupSPListItem.ListId>
+      <p1:LookupSPListItem.Result>
+        <OutArgument x:TypeArguments="p:DynamicValue">
+          <p:ExpressionContainerReference x:TypeArguments="p:DynamicValue" DisplayName="dv_0">
+            <p:ExpressionContainerReference.Arguments>
+              <InOutArgument x:TypeArguments="p:DynamicValue" x:Key="dv_0">
+                <VariableReference x:TypeArguments="p:DynamicValue" Variable="{x:Reference __ReferenceID0}" />
+              </InOutArgument>
+            </p:ExpressionContainerReference.Arguments>
+            <ArgumentReference x:TypeArguments="p:DynamicValue" ArgumentName="dv_0" />
+          </p:ExpressionContainerReference>
+        </OutArgument>
+      </p1:LookupSPListItem.Result>
+    </p1:LookupSPListItem>
+    <p:GetODataProperties DisplayName="GetDynamicValueProperties">
+      <p:GetODataProperties.Source>
+        <InArgument x:TypeArguments="p:DynamicValue">
+          <p:ExpressionContainerValue x:TypeArguments="p:DynamicValue" DisplayName="dv_0">
+            <p:ExpressionContainerValue.Arguments>
+              <InArgument x:TypeArguments="p:DynamicValue" x:Key="dv_0">
+                <VariableValue x:TypeArguments="p:DynamicValue" Variable="{x:Reference __ReferenceID0}" />
+              </InArgument>
+            </p:ExpressionContainerValue.Arguments>
+            <ArgumentValue x:TypeArguments="p:DynamicValue" ArgumentName="dv_0" />
+          </p:ExpressionContainerValue>
+        </InArgument>
+      </p:GetODataProperties.Source>
+      <scg:Dictionary x:TypeArguments="x:String, OutArgument">
+        <OutArgument x:TypeArguments="x:Double" x:Key="BudgetAmount">
+          <p:ExpressionContainerReference x:TypeArguments="x:Double" DisplayName="BudgetAmount">
+            <p:ExpressionContainerReference.Arguments>
+              <InOutArgument x:TypeArguments="x:Double" x:Key="BudgetAmount">
+                <VariableReference x:TypeArguments="x:Double" Variable="{x:Reference __ReferenceID1}" />
+              </InOutArgument>
+            </p:ExpressionContainerReference.Arguments>
+            <ArgumentReference x:TypeArguments="x:Double" ArgumentName="BudgetAmount" />
+          </p:ExpressionContainerReference>
+        </OutArgument>
+      </scg:Dictionary>
+    </p:GetODataProperties>
+    <If>
+      <If.Condition>
+        <InArgument x:TypeArguments="x:Boolean">
+          <p:ExpressionContainerValue x:TypeArguments="x:Boolean" DisplayName="BudgetAmount&lt;=100">
+            <p:ExpressionContainerValue.Arguments>
+              <InArgument x:TypeArguments="x:Double" x:Key="BudgetAmount">
+                <VariableValue x:TypeArguments="x:Double" Variable="{x:Reference __ReferenceID1}" />
+              </InArgument>
+            </p:ExpressionContainerValue.Arguments>
+            <p:IsLessThanOrEqual x:TypeArguments="x:Double">
+              <p:IsLessThanOrEqual.Left>
+                <InArgument x:TypeArguments="x:Double" EvaluationOrder="0">
+                  <ArgumentValue x:TypeArguments="x:Double" ArgumentName="BudgetAmount" />
+                </InArgument>
+              </p:IsLessThanOrEqual.Left>
+              <p:IsLessThanOrEqual.Right>
+                <InArgument x:TypeArguments="x:Double" EvaluationOrder="1" Expression="100" />
+              </p:IsLessThanOrEqual.Right>
+            </p:IsLessThanOrEqual>
+          </p:ExpressionContainerValue>
+        </InArgument>
+      </If.Condition>
+      <If.Then>
+        <p1:UpdateListItem ItemGuid="{x:Null}" ListItemProperties="{x:Null}" DisplayName="ApprovedByDefaultUpdate">
+          <p1:UpdateListItem.ItemId>
+            <InArgument x:TypeArguments="x:Int32">
+              <p:ExpressionContainerValue x:TypeArguments="x:Int32">
+                <p1:GetCurrentItemId />
+              </p:ExpressionContainerValue>
+            </InArgument>
+          </p1:UpdateListItem.ItemId>
+          <p1:UpdateListItem.ListId>
+            <InArgument x:TypeArguments="s:Guid">
+              <p:ExpressionContainerValue x:TypeArguments="s:Guid">
+                <p1:GetCurrentListId />
+              </p:ExpressionContainerValue>
+            </InArgument>
+          </p1:UpdateListItem.ListId>
+          <p1:UpdateListItem.ListItemPropertiesDynamicValue>
+            <InArgument x:TypeArguments="p:DynamicValue">
+              <p:SetDynamicValueProperties>
+                <scg:Dictionary x:TypeArguments="x:String, InArgument">
+                  <InArgument x:TypeArguments="x:String" x:Key="ApprovalStatus">Approved By Default</InArgument>
+                </scg:Dictionary>
+              </p:SetDynamicValueProperties>
+            </InArgument>
+          </p1:UpdateListItem.ListItemPropertiesDynamicValue>
+        </p1:UpdateListItem>
+      </If.Then>
+      <If.Else>
+        <Sequence>
+          <p1:UpdateListItem ItemGuid="{x:Null}" ListItemProperties="{x:Null}" DisplayName="PendingApprovalUpdate">
+            <p1:UpdateListItem.ItemId>
+              <InArgument x:TypeArguments="x:Int32">
+                <p:ExpressionContainerValue x:TypeArguments="x:Int32">
+                  <p1:GetCurrentItemId />
+                </p:ExpressionContainerValue>
+              </InArgument>
+            </p1:UpdateListItem.ItemId>
+            <p1:UpdateListItem.ListId>
+              <InArgument x:TypeArguments="s:Guid">
+                <p:ExpressionContainerValue x:TypeArguments="s:Guid">
+                  <p1:GetCurrentListId />
+                </p:ExpressionContainerValue>
+              </InArgument>
+            </p1:UpdateListItem.ListId>
+            <p1:UpdateListItem.ListItemPropertiesDynamicValue>
+              <InArgument x:TypeArguments="p:DynamicValue">
+                <p:SetDynamicValueProperties>
+                  <scg:Dictionary x:TypeArguments="x:String, InArgument">
+                    <InArgument x:TypeArguments="x:String" x:Key="ApprovalStatus">Pending approval from approvers</InArgument>
+                  </scg:Dictionary>
+                </p:SetDynamicValueProperties>
+              </InArgument>
+            </p1:UpdateListItem.ListItemPropertiesDynamicValue>
+          </p1:UpdateListItem>
+          <p1:SingleTask Body="{x:Null}" DueDate="{x:Null}" TaskId="{x:Null}" TaskItemId="{x:Null}" AssignedTo="Approvers" AssignmentEmailBody="&lt;html&gt;&lt;body style='font-size:11pt;font-family:Segoe UI Light,sans-serif;color:#444444;'&gt;&lt;div&gt;&lt;span style='font-size:13.5pt'&gt;You have a new task.&lt;/span&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" AssignmentEmailSubject="Task Assigned" CancelationEmailBody="&lt;html&gt;&lt;body style='font-size:11pt;font-family:Segoe UI Light,sans-serif;color:#444444;'&gt;&lt;div&gt;&lt;span style='font-size:13.5pt'&gt;One of your tasks was canceled and deleted. You do not need to take any further action on that task.&lt;/span&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" CancelationEmailSubject="Task Canceled" CompletedStatus="Completed" ContentTypeId="0x0108003365C4474CAE8C42BCE396314E88E51F" DefaultTaskOutcome="1" DisplayName="ApproversApproval" OutcomeFieldName="TaskOutcome" OverdueEmailBody="&lt;html&gt;&lt;body style='font-size:11pt;font-family:Segoe UI Light,sans-serif;color:#444444;'&gt;&lt;div&gt;&lt;span style='font-size:13.5pt'&gt;You have an &lt;/span&gt;&lt;span style='font-size:13.5pt;color:#ff3b3b;'&gt;overdue&lt;/span&gt;&lt;span style='font-size:13.5pt'&gt; task.&lt;/span&gt;&lt;/div&gt;&lt;/body&gt;&lt;/html&gt;" OverdueEmailSubject="Task Overdue" OverdueReminderRepeat="1" OverdueRepeatTimes="1" PreserveIncompleteTasks="False" SendReminderEmail="True" Title="Budget Approval" WaitForTaskCompletion="True" WaiveAssignmentEmail="False" WaiveCancelationEmail="False">
+            <p1:SingleTask.Outcome>
+              <OutArgument x:TypeArguments="x:Int32">
+                <p:ExpressionContainerReference x:TypeArguments="x:Int32" DisplayName="outcome_0">
+                  <p:ExpressionContainerReference.Arguments>
+                    <InOutArgument x:TypeArguments="x:Int32" x:Key="outcome_0">
+                      <VariableReference x:TypeArguments="x:Int32" Variable="{x:Reference __ReferenceID2}" />
+                    </InOutArgument>
+                  </p:ExpressionContainerReference.Arguments>
+                  <ArgumentReference x:TypeArguments="x:Int32" ArgumentName="outcome_0" />
+                </p:ExpressionContainerReference>
+              </OutArgument>
+            </p1:SingleTask.Outcome>
+            <p1:SingleTask.RelatedContentLinkListId>
+              <InArgument x:TypeArguments="s:Guid">
+                <p:ExpressionContainerValue x:TypeArguments="s:Guid">
+                  <p1:GetCurrentListId />
+                </p:ExpressionContainerValue>
+              </InArgument>
+            </p1:SingleTask.RelatedContentLinkListId>
+            <p1:SingleTask.RelatedContentLinkListItemId>
+              <InArgument x:TypeArguments="s:Guid">
+                <p:ExpressionContainerValue x:TypeArguments="s:Guid">
+                  <p1:GetCurrentItemGuid />
+                </p:ExpressionContainerValue>
+              </InArgument>
+            </p1:SingleTask.RelatedContentLinkListItemId>
+            <p1:SingleTask.RelatedContentLinkListItemIntegerId>
+              <InArgument x:TypeArguments="x:Int32">
+                <p:ExpressionContainerValue x:TypeArguments="x:Int32">
+                  <p1:GetCurrentItemId />
+                </p:ExpressionContainerValue>
+              </InArgument>
+            </p1:SingleTask.RelatedContentLinkListItemIntegerId>
+          </p1:SingleTask>
+          <If>
+            <If.Condition>
+              <InArgument x:TypeArguments="x:Boolean">
+                <p:ExpressionContainerValue x:TypeArguments="x:Boolean" DisplayName="outcome_0==0">
+                  <p:ExpressionContainerValue.Arguments>
+                    <InArgument x:TypeArguments="x:Int32" x:Key="outcome_0">
+                      <VariableValue x:TypeArguments="x:Int32" Variable="{x:Reference __ReferenceID2}" />
+                    </InArgument>
+                  </p:ExpressionContainerValue.Arguments>
+                  <p:IsEqual x:TypeArguments="x:Int32">
+                    <p:IsEqual.Left>
+                      <InArgument x:TypeArguments="x:Int32" EvaluationOrder="0">
+                        <ArgumentValue x:TypeArguments="x:Int32" ArgumentName="outcome_0" />
+                      </InArgument>
+                    </p:IsEqual.Left>
+                    <p:IsEqual.Right>
+                      <InArgument x:TypeArguments="x:Int32" EvaluationOrder="1" Expression="0" />
+                    </p:IsEqual.Right>
+                  </p:IsEqual>
+                </p:ExpressionContainerValue>
+              </InArgument>
+            </If.Condition>
+            <If.Then>
+              <p1:UpdateListItem ItemGuid="{x:Null}" ListItemProperties="{x:Null}" DisplayName="ApprovedApprovalUpdate">
+                <p1:UpdateListItem.ItemId>
+                  <InArgument x:TypeArguments="x:Int32">
+                    <p:ExpressionContainerValue x:TypeArguments="x:Int32">
+                      <p1:GetCurrentItemId />
+                    </p:ExpressionContainerValue>
+                  </InArgument>
+                </p1:UpdateListItem.ItemId>
+                <p1:UpdateListItem.ListId>
+                  <InArgument x:TypeArguments="s:Guid">
+                    <p:ExpressionContainerValue x:TypeArguments="s:Guid">
+                      <p1:GetCurrentListId />
+                    </p:ExpressionContainerValue>
+                  </InArgument>
+                </p1:UpdateListItem.ListId>
+                <p1:UpdateListItem.ListItemPropertiesDynamicValue>
+                  <InArgument x:TypeArguments="p:DynamicValue">
+                    <p:SetDynamicValueProperties>
+                      <scg:Dictionary x:TypeArguments="x:String, InArgument">
+                        <InArgument x:TypeArguments="x:String" x:Key="ApprovalStatus">Approved by approvers</InArgument>
+                      </scg:Dictionary>
+                    </p:SetDynamicValueProperties>
+                  </InArgument>
+                </p1:UpdateListItem.ListItemPropertiesDynamicValue>
+              </p1:UpdateListItem>
+            </If.Then>
+            <If.Else>
+              <p1:UpdateListItem ItemGuid="{x:Null}" ListItemProperties="{x:Null}" DisplayName="RejectedApprovalUpdate">
+                <p1:UpdateListItem.ItemId>
+                  <InArgument x:TypeArguments="x:Int32">
+                    <p:ExpressionContainerValue x:TypeArguments="x:Int32">
+                      <p1:GetCurrentItemId />
+                    </p:ExpressionContainerValue>
+                  </InArgument>
+                </p1:UpdateListItem.ItemId>
+                <p1:UpdateListItem.ListId>
+                  <InArgument x:TypeArguments="s:Guid">
+                    <p:ExpressionContainerValue x:TypeArguments="s:Guid">
+                      <p1:GetCurrentListId />
+                    </p:ExpressionContainerValue>
+                  </InArgument>
+                </p1:UpdateListItem.ListId>
+                <p1:UpdateListItem.ListItemPropertiesDynamicValue>
+                  <InArgument x:TypeArguments="p:DynamicValue">
+                    <p:SetDynamicValueProperties>
+                      <scg:Dictionary x:TypeArguments="x:String, InArgument">
+                        <InArgument x:TypeArguments="x:String" x:Key="ApprovalStatus">Rejected by approvers</InArgument>
+                      </scg:Dictionary>
+                    </p:SetDynamicValueProperties>
+                  </InArgument>
+                </p1:UpdateListItem.ListItemPropertiesDynamicValue>
+              </p1:UpdateListItem>
+            </If.Else>
+          </If>
+        </Sequence>
+      </If.Else>
+    </If>
+  </Sequence>
+</Activity>

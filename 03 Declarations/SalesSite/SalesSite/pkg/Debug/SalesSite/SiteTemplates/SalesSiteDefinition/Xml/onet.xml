@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Title="SalesSiteDefinition" Revision="2" ListDir="" xmlns:ows="Microsoft SharePoint" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <NavBars>
+    <NavBar ID="1002"
+            Name="$Resources:core,category_Top;">
+      <NavBarLink Name="Global Sales Site" Url="http://www.contoso.com" />
+    </NavBar>
+  </NavBars>
+  <Configurations>
+    <Configuration ID="0" Name="SalesSiteDefinition">
+      <Lists>
+        <List
+          Type="101"
+          Url="Lists/SalesDocuments"
+          Title="Sales Documents"
+          Description="Use this library to store documents related to specific sales opportunities." />
+        <List
+          Type="101"
+          Url="Lists/SalesResources"
+          Title="Sales Resources"
+          Description="Use this library to store generic documents that all members of the sales team can use to support any sales opportunity." />        
+      </Lists>
+      <SiteFeatures>
+      </SiteFeatures>
+      <WebFeatures>
+        <Feature Name="Sales Leads List" ID="7740b71d-52e9-48e0-91a6-5ef23b57f6c4" />
+      </WebFeatures>
+      <Modules>
+        <Module Name="DefaultBlank" />
+      </Modules>
+    </Configuration>
+  </Configurations>
+  <Modules>
+    <Module Name="DefaultBlank" Url="" Path="">
+      <File Url="default.aspx">
+      </File>
+    </Module>
+  </Modules>
+</Project>

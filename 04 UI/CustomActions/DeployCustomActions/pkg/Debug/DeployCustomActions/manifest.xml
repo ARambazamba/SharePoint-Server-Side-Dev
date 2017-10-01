@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="62f651eb-7b91-43f6-8b13-721145faaec9" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="DeployCustomActions.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\DeployCustomActions\CustomActionsTarget.aspx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="DeployCustomActions_CustomActionsFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

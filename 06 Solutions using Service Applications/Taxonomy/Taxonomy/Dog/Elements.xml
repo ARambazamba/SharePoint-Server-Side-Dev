@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ContentType ID="0x0100DBF5F13C103C41F1878539F6FD9E07D6" Name="Dog" Group="Custom Content Types" Description="My Dog Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" DisplayName="$Resources:core,First_Name;" Name="FirstName" />
+      <FieldRef ID="{8061f112-6339-4851-a846-8fb7b3e8cf3f}" DisplayName="Breed" Required="FALSE" Name="Breed" />
+    </FieldRefs>
+    <!--<XmlDocuments>
+      <XmlDocument NamespaceURI="http://schemas.microsoft.com/sharepoint/events">
+        <Receivers xmlns:spe=" http://schemas.microsoft.com/sharepoint/events">
+          <Receiver>
+            <Name>ItemAddedDummy</Name>
+            <Type>ItemAdding</Type>
+            <SequenceNumber>10050</SequenceNumber>
+            <Assembly>$SharePoint.Project.AssemblyFullName$</Assembly>
+            <Class>Taxonomy.ItemAddedDummy.ItemAddedDummy</Class>
+            <Data></Data>
+            <Filter></Filter>
+          </Receiver>
+        </Receivers>
+      </XmlDocument>
+    </XmlDocuments>-->
+  </ContentType>
+</Elements>

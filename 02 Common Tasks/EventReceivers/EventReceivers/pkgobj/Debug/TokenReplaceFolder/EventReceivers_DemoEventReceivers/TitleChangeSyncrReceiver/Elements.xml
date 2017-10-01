@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="105">
+      <Receiver>
+        <Name>TitleChangeSyncrReceiverItemUpdated</Name>
+        <Type>ItemUpdated</Type>
+        <Assembly>EventReceivers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=485b6dd4a43c84e7</Assembly>
+        <Class>EventReceivers.TitleChangeSyncrReceiver.TitleChangeSyncrReceiver</Class>
+        <SequenceNumber>10000</SequenceNumber>
+      </Receiver>
+  </Receivers>
+</Elements>

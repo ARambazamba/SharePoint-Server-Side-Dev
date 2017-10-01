@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="00e30b6c-f75b-4bd8-a944-5a65993cbaac" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Notification.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="Notification_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

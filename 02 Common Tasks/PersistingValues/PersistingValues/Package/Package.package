@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ef51eab5-89f7-4f36-97ed-bb42f5954ab5" solutionId="ef51eab5-89f7-4f36-97ed-bb42f5954ab5" resetWebServer="false" sharePointProductVersion="16.0" name="PersistingValues" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="e87628cb-c857-47a1-92c2-f26959a1de83" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="49521d4e-720d-4143-8a2b-fe46c472ca5f" />
+    <projectItemReference itemId="35a883f8-5aca-4bd6-b8e7-cf813941f62d" />
+  </projectItems>
+</package>

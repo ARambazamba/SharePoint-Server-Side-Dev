@@ -1,0 +1,10 @@
+﻿<WorkflowAssociation xmlns="http://schemas.microsoft.com/sharepoint/2012/app/workflow">
+  <Description>BudgetApprovalWorkflow - WorkflowStart</Description>
+  <DisplayName>BudgetApprovalWorkflow - WorkflowStart</DisplayName>
+  <Enabled>true</Enabled>
+  <EventSourceGUID>Lists/BudgetRequest</EventSourceGUID>
+  <EventType>WorkflowStart</EventType>
+  <HistoryListId>Lists/WorkflowHistoryList</HistoryListId>
+  <Id>f7056dd0-291b-4f68-9bbe-2d7fb8697d15</Id>
+  <TaskListId>Lists/WorkflowTaskList</TaskListId>
+</WorkflowAssociation>

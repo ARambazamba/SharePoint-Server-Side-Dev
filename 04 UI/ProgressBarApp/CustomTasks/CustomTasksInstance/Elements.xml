@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <ListInstance Title="CustomTasks" OnQuickLaunch="TRUE" TemplateType="10000" Url="Lists/CustomTasks" Description="My List Instance">
+    <Data>
+      <Rows>
+        <Row>
+          <Field Name="Title">Write specification for new project</Field>
+          <Field Name="DueDate">3/1/2013</Field>
+          <Field Name="PercentComplete">.98</Field>
+        </Row>
+        <Row>
+          <Field Name="Title">Implement new project</Field>
+          <Field Name="DueDate">11/21/2020</Field>
+          <Field Name="PercentComplete">.05</Field>
+        </Row>
+      </Rows>
+    </Data>
+  </ListInstance>
+</Elements>

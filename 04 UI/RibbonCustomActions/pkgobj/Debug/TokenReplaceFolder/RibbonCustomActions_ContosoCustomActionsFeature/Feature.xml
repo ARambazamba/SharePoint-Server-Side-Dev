@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="2ea821b7-cd34-4131-a4b6-cdd7373e8239" Scope="Web" Title="Contoso Custom Actions Feature">
+  <ElementManifests>
+    <ElementManifest Location="ContosoCustomActions\LibraryCustomActions.xml" />
+  </ElementManifests>
+</Feature>

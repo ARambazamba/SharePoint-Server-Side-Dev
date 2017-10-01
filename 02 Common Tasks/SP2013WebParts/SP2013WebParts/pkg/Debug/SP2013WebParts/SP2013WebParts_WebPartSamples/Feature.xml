@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="4f9673e4-0e06-44b0-9bda-f10f76fb2ae3" Scope="Site" Title="WebPartSamples">
+  <ElementManifests>
+    <ElementManifest Location="SimpleWebPart\Elements.xml" />
+    <ElementFile Location="SimpleWebPart\SimpleWebPart.webpart" />
+    <ElementManifest Location="MyVisualWebPart\Elements.xml" />
+    <ElementFile Location="MyVisualWebPart\MyVisualWebPart.webpart" />
+    <ElementManifest Location="DataboundWP\Elements.xml" />
+    <ElementFile Location="DataboundWP\DataboundWP.webpart" />
+  </ElementManifests>
+</Feature>

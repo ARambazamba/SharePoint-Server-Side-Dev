@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="3c94c188-0859-4242-ba3c-7f61f6ec8baa" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="StatusBarMessage.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="StatusBarMessage_StatusBarFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

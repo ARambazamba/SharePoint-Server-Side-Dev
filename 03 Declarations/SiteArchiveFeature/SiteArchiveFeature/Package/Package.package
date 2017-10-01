@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="03e5c29c-39f6-4aa8-89be-3d3c31cdfec3" solutionId="03e5c29c-39f6-4aa8-89be-3d3c31cdfec3" resetWebServer="false" sharePointProductVersion="15.0" name="SiteArchiveFeature" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="50e2929b-a195-492c-b028-7db65aff3ad2" />
+    <featureReference itemId="93f3ec52-ac3e-472d-b085-57ac15e23c6d" />
+  </features>
+</package>

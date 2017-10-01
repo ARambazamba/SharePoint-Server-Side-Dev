@@ -1,0 +1,5 @@
+d:\FeaturePattern\FeaturePattern\bin\Debug\FeaturePattern.dll
+d:\FeaturePattern\FeaturePattern\bin\Debug\FeaturePattern.pdb
+d:\FeaturePattern\FeaturePattern\obj\Debug\FeaturePattern.csprojResolveAssemblyReference.cache
+d:\FeaturePattern\FeaturePattern\obj\Debug\FeaturePattern.dll
+d:\FeaturePattern\FeaturePattern\obj\Debug\FeaturePattern.pdb

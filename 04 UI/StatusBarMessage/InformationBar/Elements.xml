@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Description="Status bar message"
+    Id="Contoso.Ribbon.Library.StatusBarMessage"
+    Location="CommandUI.Ribbon">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+          Location="Ribbon.Library.Share.Controls._children">
+          <Button
+            Id="Contoso.Ribbon.Library.StatusBarButton"
+            Command="Contoso.StatusBarMessage"
+            Image32by32="/_layouts/images/HTML32.GIF"
+            LabelText="Display Status Message"
+            TemplateAlias="o2"
+            Sequence="20" />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+          Command="Contoso.StatusBarMessage"
+          CommandAction="javascript:strStatusID = SP.UI.Status.addStatus('Information:', 'Please add a descriptive comment to all check-ins', true); SP.UI.Status.setStatusPriColor(strStatusID, 'yellow');" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+</Elements>

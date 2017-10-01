@@ -1,0 +1,5 @@
+d:\Taxonomy\Taxonomy\bin\Debug\Taxonomy.dll
+d:\Taxonomy\Taxonomy\bin\Debug\Taxonomy.pdb
+d:\Taxonomy\Taxonomy\obj\Debug\Taxonomy.csprojResolveAssemblyReference.cache
+d:\Taxonomy\Taxonomy\obj\Debug\Taxonomy.dll
+d:\Taxonomy\Taxonomy\obj\Debug\Taxonomy.pdb

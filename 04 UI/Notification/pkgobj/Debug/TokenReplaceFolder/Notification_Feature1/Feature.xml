@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="fbad0709-179c-42e0-af0a-5524620c7209" Scope="Web" Title="Notification Feature1">
+  <ElementManifests>
+    <ElementManifest Location="Notification\Elements.xml" />
+  </ElementManifests>
+</Feature>

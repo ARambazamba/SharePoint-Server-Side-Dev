@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="see my blog: http://ikarstein.wordpress.com" Id="f0fb0300-f1a4-493b-ac43-68977d7d6e2d" Scope="Web" Title="Ingo Karstein's SharePoint Custom List Form Demo">
+  <ElementManifests>
+    <ElementManifest Location="ListInstance1\Elements.xml" />
+    <ElementManifest Location="ListDefinition1\Elements.xml" />
+    <ElementFile Location="ListDefinition1\Schema.xml" />
+    <ElementFile Location="ListDefinition1\new4.aspx" />
+    <ElementManifest Location="ListInstance2\Elements.xml" />
+    <ElementManifest Location="ListDefinition2\Elements.xml" />
+    <ElementFile Location="ListDefinition2\Schema.xml" />
+    <ElementFile Location="ListDefinition2\new3.aspx" />
+  </ElementManifests>
+</Feature>

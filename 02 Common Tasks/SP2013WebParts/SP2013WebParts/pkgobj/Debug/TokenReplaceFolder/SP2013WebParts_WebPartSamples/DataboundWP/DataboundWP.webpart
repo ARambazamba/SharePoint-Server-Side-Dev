@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="SP2013WebParts.DataboundWP.DataboundWP, SP2013WebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=66e409ddbd565c52" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">SP2013WebParts - DataboundWP</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

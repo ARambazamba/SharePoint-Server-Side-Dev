@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x0100E560DFBF63694985B24AAAD8CD9098CD" Name="Rentals" Group="Custom Content Types" Description="My Content Type" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{64cd368d-2f95-4bfc-a1f9-8d4324ecb007}" DisplayName="$Resources:core,Start_Date;" Name="StartDate" Format="DateOnly" />
+      <FieldRef ID="{8A121252-85A9-443d-8217-A1B57020FADF}" DisplayName="$Resources:core,End_Date;" Name="_EndDate" Format="DateTime" />
+      <FieldRef ID="{eb2402e0-a0de-4e31-a5bf-edecfa77578c}" DisplayName="Rental State" Required="FALSE" Name="RentalState" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

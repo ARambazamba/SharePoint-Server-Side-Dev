@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<webParts>
+  <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
+    <metaData>
+      <type name="FeaturePattern.MyVisualWebPart.MyVisualWebPart, FeaturePattern, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fb1d06e1eac6a344" />
+      <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
+    </metaData>
+    <data>
+      <properties>
+        <property name="Title" type="string">FeaturePattern - MyVisualWebPart</property>
+        <property name="Description" type="string">My Visual Web Part</property>
+      </properties>
+    </data>
+  </webPart>
+</webParts>

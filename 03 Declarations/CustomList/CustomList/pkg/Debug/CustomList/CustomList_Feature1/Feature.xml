@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="e2a8f933-b3bc-4bbd-a3cb-91d5b6bfbc7a" Scope="Web" Title="CustomList Feature1">
+  <ElementManifests>
+    <ElementManifest Location="RentalState\Elements.xml" />
+    <ElementManifest Location="Rentals\Elements.xml" />
+    <ElementManifest Location="CarRentalsInstance\Elements.xml" />
+    <ElementManifest Location="CarRentals\Elements.xml" />
+    <ElementFile Location="CarRentals\Schema.xml" />
+  </ElementManifests>
+</Feature>

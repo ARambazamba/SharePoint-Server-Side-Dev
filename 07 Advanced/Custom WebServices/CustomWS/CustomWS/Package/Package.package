@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="8ff45271-8011-480d-ac1a-addf3b8fcd26" solutionId="8ff45271-8011-480d-ac1a-addf3b8fcd26" resetWebServer="false" sharePointProductVersion="16.0" name="CustomWS" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="c3a4b205-43ec-4c88-bc1e-ba14e2d89499" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="3bae629f-6e4a-4571-9f6a-6db5ca86825a" />
+    <projectItemReference itemId="3dcb463a-33a1-4ac9-b877-bcb9e27b8326" />
+  </projectItems>
+</package>

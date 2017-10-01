@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="927c9fca-ef63-4785-8502-7c6a6ffac317" Scope="Web" Title="ClientRendering Feature1">
+  <ElementManifests>
+    <ElementManifest Location="ProductsListInstance\Elements.xml" />
+    <ElementManifest Location="ProductsList\Elements.xml" />
+    <ElementFile Location="ProductsList\Schema.xml" />
+  </ElementManifests>
+</Feature>

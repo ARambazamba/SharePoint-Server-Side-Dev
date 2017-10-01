@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="ac16a839-b9b9-453b-983f-96b5f5055197" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="CustomList.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="CustomList_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

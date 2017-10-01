@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="3ab12609-952e-48c0-b80b-a474787d570d" ReceiverAssembly="ListTimerJob, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd4f51225f327f5d" ReceiverClass="ListTimerJob.Features.Feature1.Feature1EventReceiver" Scope="Site" Title="TimerJobDemo"></Feature>

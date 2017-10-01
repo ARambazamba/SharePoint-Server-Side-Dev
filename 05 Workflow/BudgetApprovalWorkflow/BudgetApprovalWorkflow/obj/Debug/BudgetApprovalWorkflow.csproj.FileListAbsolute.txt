@@ -1,0 +1,50 @@
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\bin\Debug\TranslatedWorkflows\TranslationMap.xml
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\bin\Debug\BudgetApprovalWorkflow.pdb
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\bin\Debug\Microsoft.SharePoint.DesignTime.Activities.16.0.dll
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\bin\Debug\System.Net.Http.Formatting.dll
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\bin\Debug\Newtonsoft.Json.dll
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\bin\Debug\System.Net.Http.Formatting.xml
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\Workflow.g.xaml
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.BudgetApprovalWorkflow_Workflow_BeforeInitializeComponentHelper.txt
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\_BudgetApprovalWorkflow.g.cs
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\Workflow.g.cs
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.BudgetApprovalWorkflow_Workflow_BeforeInitializeComponentHelper.cs
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.csproj.XamlGeneratedCodeFileListAbsolute.txt
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.csproj.XamlGeneratedXamlFileListAbsolute.txt
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.dll
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.pdb
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.BudgetApprovalWorkflow_Workflow_CompiledExpressionRoot.cs
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\bin\Debug\Microsoft.SharePoint.DesignTime.Activities.16.0.Design.dll
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\bin\Debug\TranslatedWorkflows\uxfmf3ax.mbz.xaml
+c:\users\mds\documents\visual studio 2013\Projects\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\_AssemblyInfo_85aa97478bca4baa95284486a035fe56.g.cs
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\Workflow.g.xaml
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.BudgetApprovalWorkflow_Workflow_BeforeInitializeComponentHelper.txt
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\_BudgetApprovalWorkflow.g.cs
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\Workflow.g.cs
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.BudgetApprovalWorkflow_Workflow_BeforeInitializeComponentHelper.cs
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.csproj.XamlGeneratedCodeFileListAbsolute.txt
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.csproj.XamlGeneratedXamlFileListAbsolute.txt
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.csproj.FileListAbsolute.txt
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.dll
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.pdb
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.BudgetApprovalWorkflow_Workflow_CompiledExpressionRoot.cs
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\AC2C1ABA-CCF6-44D4-8127-588FD4D0A860-DeferredValidationErrors.xml
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\bin\Debug\TranslatedWorkflows\TranslationMap.xml
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\bin\Debug\BudgetApprovalWorkflow.pdb
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\bin\Debug\Microsoft.SharePoint.DesignTime.Activities.Design.dll
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\bin\Debug\Microsoft.SharePoint.DesignTime.Activities.dll
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\bin\Debug\Newtonsoft.Json.dll
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\InProcessTempFiles\Workflow.g.cs
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\InProcessTempFiles\Workflow.g.xaml
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\InProcessTempFiles\_BudgetApprovalWorkflow.g.cs
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.csproj.DebuggingAppPackageFileList.txt
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.csproj.DebugRemoteAppServiceBaseUrl.txt
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.csproj.IsDebugging.txt
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.csproj.IsWorkflowDebuggingEnabled.txt
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.csproj.PackageFileList.txt
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.csproj.RemoteAppUrl.txt
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.csproj.WorkflowDebuggingClientSecret.txt
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\bin\Debug\TranslatedWorkflows\m1kycrew.wqk.xaml
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\BudgetApprovalWorkflow.csprojResolveAssemblyReference.cache
+D:\BudgetApprovalWorkflow\BudgetApprovalWorkflow\obj\Debug\_AssemblyInfo_6774c80016024ea9a9d3e0744590564b.g.cs

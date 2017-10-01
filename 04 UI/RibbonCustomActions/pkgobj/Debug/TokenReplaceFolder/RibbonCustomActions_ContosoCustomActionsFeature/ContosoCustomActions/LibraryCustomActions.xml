@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction
+    Description="Contoso related controls"
+    Id="Contoso.Ribbon.Library.Group"
+    Location="CommandUI.Ribbon">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition
+          Location="Ribbon.Library.Groups._children">
+          <Group
+            Id="Contoso.Library"
+            Sequence="80"
+            Description="Contoso group"
+            Title="Contoso"
+            Template="Ribbon.Templates.Flexible2">
+            <Controls Id="Contoso.SharePoint.Administration.Application.Group.Controls">
+              <Button
+                Id="Contoso.Ribbon.Library.About"
+                Command="Contoso.About.Command"
+                Image32by32="/_layouts/images/HTML32.GIF"
+                LabelText="About"
+                TemplateAlias="o2"
+                Sequence="10" />
+              <Button
+                Id="Contoso.Ribbon.Library.ContosoHome"
+                Command="Contoso.Support.Command"
+                Image32by32="/_layouts/images/HTML32.GIF"
+                LabelText="Support"
+                TemplateAlias="o2"
+                Sequence="20" />
+            </Controls>
+          </Group>
+        </CommandUIDefinition>
+        <CommandUIDefinition
+          Location="Ribbon.Library.Scaling._children">
+          <MaxSize
+            Id="Contoso.Ribbon.Library.MaxSize"
+            Sequence="15"
+            GroupId="Contoso.Library"
+            Size="LargeLarge" />
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler
+          Command="Contoso.About.Command"
+          CommandAction="javascript:alert('Contoso 2013');" />
+        <CommandUIHandler
+          Command="Contoso.Support.Command"
+          CommandAction="http://team.contoso.com/support"/>
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+</Elements>

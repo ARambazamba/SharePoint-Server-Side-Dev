@@ -1,0 +1,2 @@
+obj\Debug\Workflow.g.xaml
+obj\Debug\BudgetApprovalWorkflow.BudgetApprovalWorkflow_Workflow_BeforeInitializeComponentHelper.txt

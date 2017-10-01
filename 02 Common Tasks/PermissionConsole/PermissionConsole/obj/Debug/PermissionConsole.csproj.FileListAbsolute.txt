@@ -1,0 +1,4 @@
+D:\SharePoint 2013 Dev MOC\Demos\06\PermissionConsole\PermissionConsole\bin\Debug\PermissionConsole.exe
+D:\SharePoint 2013 Dev MOC\Demos\06\PermissionConsole\PermissionConsole\bin\Debug\PermissionConsole.pdb
+D:\SharePoint 2013 Dev MOC\Demos\06\PermissionConsole\PermissionConsole\obj\Debug\PermissionConsole.exe
+D:\SharePoint 2013 Dev MOC\Demos\06\PermissionConsole\PermissionConsole\obj\Debug\PermissionConsole.pdb

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="FeaturePattern Feature1" Id="14ee1874-0a05-4b04-9a0c-4322d17aa35e" ReceiverAssembly="FeaturePattern, Version=1.0.0.0, Culture=neutral, PublicKeyToken=fb1d06e1eac6a344" ReceiverClass="FeaturePattern.Features.Feature1.Feature1EventReceiver" Scope="Site">
+  <ElementManifests>
+    <ElementManifest Location="MyVisualWebPart\Elements.xml" />
+    <ElementFile Location="MyVisualWebPart\MyVisualWebPart.webpart" />
+    <ElementManifest Location="MySuperList\Elements.xml" />
+    <ElementFile Location="MySuperList\Schema.xml" />
+  </ElementManifests>
+</Feature>

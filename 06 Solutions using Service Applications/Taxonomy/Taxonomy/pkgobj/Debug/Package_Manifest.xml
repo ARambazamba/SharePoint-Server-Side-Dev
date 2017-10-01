@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="18e759a5-158e-4a8a-b02b-2b7269aa2115" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="Taxonomy.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\Taxonomy\ContentTypes.aspx" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="Taxonomy_Sample Taxonomy\Feature.xml" />
+  </FeatureManifests>
+</Solution>

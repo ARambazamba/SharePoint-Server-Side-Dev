@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="43774e4e-3578-42bd-89e5-f0bd3b536085" SharePointProductVersion="16.0">
+  <FeatureManifests>
+    <FeatureManifest Location="BudgetApprovalWorkflow_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

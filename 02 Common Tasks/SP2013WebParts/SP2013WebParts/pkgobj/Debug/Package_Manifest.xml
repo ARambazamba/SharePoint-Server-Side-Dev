@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="d92e8375-e931-4c62-ab84-08a525f4f6d3" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="SP2013WebParts.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Assembly="SP2013WebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=66e409ddbd565c52" Namespace="SP2013WebParts.SimpleWebPart" TypeName="*" />
+        <SafeControl Assembly="SP2013WebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=66e409ddbd565c52" Namespace="SP2013WebParts.MyVisualWebPart" TypeName="*" />
+        <SafeControl Assembly="SP2013WebParts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=66e409ddbd565c52" Namespace="SP2013WebParts.DataboundWP" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="SP2013WebParts_WebPartSamples\Feature.xml" />
+  </FeatureManifests>
+</Solution>

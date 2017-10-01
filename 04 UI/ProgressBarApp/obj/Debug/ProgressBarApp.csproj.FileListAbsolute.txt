@@ -1,0 +1,4 @@
+D:\SharePoint 2013 Dev MOC\Demos\14\ProgressBarApp\bin\Debug\ProgressBarApp.pdb
+D:\SharePoint 2013 Dev MOC\Demos\14\ProgressBarApp\obj\Debug\ProgressBarApp.dll
+D:\SharePoint 2013 Dev MOC\Demos\14\ProgressBarApp\obj\Debug\ProgressBarApp.pdb
+D:\SharePoint 2013 Dev MOC\Demos\14\ProgressBarApp\obj\Debug\ProgressBarApp.csprojResolveAssemblyReference.cache

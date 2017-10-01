@@ -1,0 +1,5 @@
+D:\Dev\02 Server Object Model Basics\EventReceivers\EventReceivers\bin\Debug\EventReceivers.dll
+D:\Dev\02 Server Object Model Basics\EventReceivers\EventReceivers\bin\Debug\EventReceivers.pdb
+D:\Dev\02 Server Object Model Basics\EventReceivers\EventReceivers\obj\Debug\EventReceivers.csprojResolveAssemblyReference.cache
+D:\Dev\02 Server Object Model Basics\EventReceivers\EventReceivers\obj\Debug\EventReceivers.dll
+D:\Dev\02 Server Object Model Basics\EventReceivers\EventReceivers\obj\Debug\EventReceivers.pdb

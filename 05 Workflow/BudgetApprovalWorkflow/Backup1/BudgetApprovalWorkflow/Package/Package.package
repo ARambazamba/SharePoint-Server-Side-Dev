@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="43774e4e-3578-42bd-89e5-f0bd3b536085" 
+        solutionId="43774e4e-3578-42bd-89e5-f0bd3b536085" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="BudgetApprovalWorkflow"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="1cb707bc-6926-4efe-a982-b0ed133abdcb" />
+  </features>
+</package>

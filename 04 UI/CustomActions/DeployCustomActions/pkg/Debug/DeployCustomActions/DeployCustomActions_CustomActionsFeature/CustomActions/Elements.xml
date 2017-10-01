@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+
+  <!--Token Documentation
+
+  SharePoint 2010
+  http://msdn.microsoft.com/en-us/library/ms431831%28v=office.14%29.aspx
+
+  SharePoint 2013 Server Side
+  http://msdn.microsoft.com/en-us/library/ms431831%28v=office.15%29.aspx
+
+  SharePoint 2013 Apps
+  http://msdn.microsoft.com/en-us/library/jj163816.aspx-->
+
+  <!--Site Actions-->
+  <CustomAction Id="Integrations.CustomActions.SiteActions"
+    Title="Persisting Values Demo"
+    ImageUrl="/_layouts/images/actionssettings.gif"
+    GroupId="SiteActions"
+    Location="Microsoft.SharePoint.StandardMenu"
+    Sequence="1001"
+    Rights="DeleteListItems"
+    Description="User SharePoint Notifications">
+    <UrlAction Url="~site/_layouts/15/DeployCustomActions/CustomActionsTarget.aspx"/>
+  </CustomAction>
+
+  <!--Edit Control Block akn Document Menu-->
+  <CustomAction Id="Integrations.CopyTo"
+		RegistrationType="List"
+		RegistrationId="101"
+		Location="EditControlBlock"
+		Sequence="300"
+		Title="Copy To Destination">
+    <UrlAction Url="~site/_layouts/15/DeployCustomActions/CustomActionsTarget.aspx?ItemId={ItemId}&amp;ListId={ListId}"/>
+  </CustomAction>
+  
+  <!--Site Settings-->
+  <CustomActionGroup
+   Id="Integrations.CustomActions.SiteSettingsGroup"
+   Location="Microsoft.SharePoint.SiteSettings"
+   Title="Document Library Extensions"
+   Sequence="100"
+   ImageUrl="/_layouts/images/demo.png"
+   Description="Settings for Document Library Extensions"/>
+  <CustomAction
+		Id="Integrations.CustomActions.SiteSettings"
+		GroupId="Integrations.CustomActions.SiteSettingsGroup"
+		Location="Microsoft.SharePoint.SiteSettings"
+		Sequence="10"
+		Title="Enable Creator-Owner-Permissions" >
+    <UrlAction Url="~site/_layouts/15/DeployCustomActions/CustomActionsTarget.aspx" />
+  </CustomAction>
+  
+  <!--List Settings-->
+  <CustomAction
+		Id="Integrations.CustomActions"
+		GroupId="GeneralSettings"
+		Location="Microsoft.SharePoint.ListEdit"
+		Sequence="10"
+		Title="Allowed File Types" >
+    <UrlAction Url="~site/_layouts/15/DeployCustomActions/CustomActionsTarget.aspx?ListId={ListId}" />
+  </CustomAction>
+</Elements>

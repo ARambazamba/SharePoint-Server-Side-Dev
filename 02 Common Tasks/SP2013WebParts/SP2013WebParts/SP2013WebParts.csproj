@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{493801C8-75B9-4DEA-8800-3F1601A713F3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SP2013WebParts</RootNamespace>
+    <AssemblyName>SP2013WebParts</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.0</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <SandboxedSolution>False</SandboxedSolution>
+    <ProjectMode>SharePointCustomization</ProjectMode>
+    <MinimumOfficeToolsVersion>14.0</MinimumOfficeToolsVersion>
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SharePoint.WorkflowActions, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.SharePoint" />
+    <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomEditorWP\CustomEditorWP.cs" />
+    <Compile Include="DataboundWP\DataboundWP.ascx.cs">
+      <DependentUpon>DataboundWP.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DataboundWP\DataboundWP.ascx.g.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataboundWP.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DemoVisualWP\DemoVisualWP.cs" />
+    <Compile Include="DemoVisualWP\DemoVisualWPUserControl.ascx.cs">
+      <DependentUpon>DemoVisualWPUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DemoVisualWP\DemoVisualWPUserControl.ascx.designer.cs">
+      <DependentUpon>DemoVisualWPUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleWebPart\SimpleWebPart.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CustomEditorWP\CustomEditorWP.webpart" />
+    <None Include="CustomEditorWP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{236d0bf4-984a-4d87-a419-b56d075ba0cf}</SharePointProjectItemId>
+    </None>
+    <None Include="DataboundWP\DataboundWP.webpart" />
+    <None Include="DataboundWP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{78c8b3b6-9130-416a-934e-15bebe876a1e}</SharePointProjectItemId>
+    </None>
+    <None Include="DemoVisualWP\DemoVisualWP.webpart" />
+    <None Include="DemoVisualWP\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{d758da21-a8a3-41e8-b1cb-2876ed3e480b}</SharePointProjectItemId>
+    </None>
+    <None Include="Features\WebPartSamples\WebPartSamples.feature">
+      <FeatureId>{6ebdc70a-b91d-43da-a8e2-5430184ab741}</FeatureId>
+    </None>
+    <None Include="key.snk" />
+    <None Include="Package\Package.package">
+      <PackageId>{d92e8375-e931-4c62-ab84-08a525f4f6d3}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="SimpleWebPart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{6cd3c592-493f-453d-87e7-f93d5cf5ec6d}</SharePointProjectItemId>
+    </None>
+    <None Include="SimpleWebPart\SimpleWebPart.webpart" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="CustomEditorWP\Elements.xml" />
+    <Content Include="DataboundWP\DataboundWP.ascx">
+      <Generator>SharePointWebPartCodeGenerator</Generator>
+      <LastGenOutput>DataboundWP.ascx.g.cs</LastGenOutput>
+    </Content>
+    <Content Include="DataboundWP\Elements.xml" />
+    <Content Include="DemoVisualWP\DemoVisualWPUserControl.ascx" />
+    <Content Include="DemoVisualWP\Elements.xml" />
+    <Content Include="Features\WebPartSamples\WebPartSamples.Template.xml">
+      <DependentUpon>WebPartSamples.feature</DependentUpon>
+    </Content>
+    <Content Include="SimpleWebPart\Elements.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>

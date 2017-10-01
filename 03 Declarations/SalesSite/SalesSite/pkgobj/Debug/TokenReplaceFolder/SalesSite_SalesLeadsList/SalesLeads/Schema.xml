@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Sales Leads" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Sales Leads" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x010059f24a5ebd3a497f891bf6c8edcaacde" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{458d096e-a411-4018-bec0-a2834fe4bc92}" Name="EstimatedValue" /><FieldRef ID="{1e7dbae9-1e4d-4db6-9262-7885bde509d8}" Name="ExpectedCompletion" /><FieldRef ID="{0322e117-0fcd-4aa2-89e4-0b777e580a4c}" Name="SalesPerson" /><FieldRef ID="{f72c997f-8366-4c1e-9006-5a7529a483c7}" Name="QuoteNumber" /><FieldRef ID="{697ccf66-41f5-4c7e-85b4-307558d9fc9d}" Name="LeadNotes" /><FieldRef ID="{12c1b956-8588-4909-ab8a-4e79132e9d8d}" Name="LeadNotes1" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+        <Folder TargetName="Item" />
+      </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
+    <Fields>
+      
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="Title" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="EstimatedValue" ID="{458d096e-a411-4018-bec0-a2834fe4bc92}" DisplayName="Customer" Type="Text" /><Field Name="ExpectedCompletion" ID="{1e7dbae9-1e4d-4db6-9262-7885bde509d8}" DisplayName="Estimated Value" Type="Currency" /><Field Name="SalesPerson" ID="{0322e117-0fcd-4aa2-89e4-0b777e580a4c}" DisplayName="Expected Completion" Type="DateTime" /><Field Name="QuoteNumber" ID="{f72c997f-8366-4c1e-9006-5a7529a483c7}" DisplayName="Sales Person" Type="User" /><Field Name="LeadNotes" ID="{697ccf66-41f5-4c7e-85b4-307558d9fc9d}" DisplayName="Quote Number" Type="Text" /><Field Name="LeadNotes1" ID="{12c1b956-8588-4909-ab8a-4e79132e9d8d}" DisplayName="Lead Notes" Type="Note" /></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="EstimatedValue" /><FieldRef Name="ExpectedCompletion" /><FieldRef Name="SalesPerson" /><FieldRef Name="QuoteNumber" /><FieldRef Name="LeadNotes" /><FieldRef Name="LeadNotes1" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

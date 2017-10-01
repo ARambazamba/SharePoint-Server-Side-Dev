@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="65d223bb-d611-40c9-b503-5411d8979e8f" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="RibbonCustomActions.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="RibbonCustomActions_ContosoCustomActionsFeature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

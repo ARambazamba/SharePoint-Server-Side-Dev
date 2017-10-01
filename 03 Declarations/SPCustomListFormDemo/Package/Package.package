@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="4fe35522-6100-408f-bcef-9ce987af7e3d" solutionId="4fe35522-6100-408f-bcef-9ce987af7e3d" resetWebServer="false" sharePointProductVersion="15.0" name="ik.SharePoint2010.SPCustomListFormDemo" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="07dbbadf-abcd-47d2-b166-8bf89ae6e2f8" />
+  </features>
+</package>

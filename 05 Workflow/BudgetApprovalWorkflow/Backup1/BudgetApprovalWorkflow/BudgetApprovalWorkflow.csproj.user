@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <SharePointSiteUrl>http://sp2013b/</SharePointSiteUrl>
+    <WorkflowDebuggingClientSecret>jGCZNjtyPOwjd77bemIJlW9KtBj+55oiKMtSSSP5yRg=</WorkflowDebuggingClientSecret>
+    <PublishUrlHistory />
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{C1CDDADD-2546-481F-9697-4EA41081F2FC}">
+        <ProjectStore>
+          <IsWorkflowDebuggingEnabled>false</IsWorkflowDebuggingEnabled>
+          <AdviseUsingServiceBusForDebugging>false</AdviseUsingServiceBusForDebugging>
+          <AppInstancePackageModifiedTime>2016-06-15T17:54:36.2813625Z</AppInstancePackageModifiedTime>
+          <AppInstanceId>73dc82fb-a5d7-4488-8381-d764d53dd1ef</AppInstanceId>
+        </ProjectStore>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

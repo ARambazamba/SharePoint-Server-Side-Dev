@@ -1,0 +1,170 @@
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\ik.SharePoint2010.SPCustomListFormDemo.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\ik.SharePoint2010.SPCustomListFormDemo.pdb
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Security.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.WorkflowActions.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.BusinessData.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Web.Administration.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Client.ServerRuntime.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Search.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Web.CommandUI.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Data.Edm.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.IdentityModel.Extensions.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Data.OData.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Client.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\System.Spatial.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.Search.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Taxonomy.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Portal.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Publishing.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.UserProfiles.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Search.Extended.Administration.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Search.Extended.Administration.ResourceStorage.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.Search.Applications.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.mshtml.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Search.Extended.Administration.Common.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.Search.Connector.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Client.Search.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Excel.Server.WebServices.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.DocumentManagement.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Policy.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Client.UserProfiles.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.SecureStoreService.Server.Security.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Excel.Server.Udf.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.WorkflowActions.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Security.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.BusinessData.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Search.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Data.Edm.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Data.OData.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Client.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Client.Runtime.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\System.Spatial.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.Search.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Taxonomy.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Portal.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Publishing.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.UserProfiles.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.Search.Connector.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.DocumentManagement.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Policy.xml
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\de\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\es\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\it\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\de\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\es\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\fr\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\it\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\ja\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\ko\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\ru\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\zh-Hans\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\bin\Debug\zh-Hant\System.Spatial.resources.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\obj\Debug\SPCustomListFormDemo.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\obj\Debug\ik.SharePoint2010.SPCustomListFormDemo.dll
+C:\Users\Administrator\Downloads\SPCustomListFormDemo\obj\Debug\ik.SharePoint2010.SPCustomListFormDemo.pdb
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\ik.SharePoint2010.SPCustomListFormDemo.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\ik.SharePoint2010.SPCustomListFormDemo.pdb
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Security.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.WorkflowActions.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.BusinessData.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Web.Administration.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Client.ServerRuntime.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Search.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Web.CommandUI.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Data.Edm.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.IdentityModel.Extensions.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Data.OData.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Client.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Client.Runtime.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\System.Spatial.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.Search.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Taxonomy.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Portal.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Publishing.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.UserProfiles.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Search.Extended.Administration.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Search.Extended.Administration.ResourceStorage.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.Search.Applications.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.mshtml.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Search.Extended.Administration.Common.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.Search.Connector.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Client.Search.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.AnalysisServices.AdomdClient.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Excel.Server.WebServices.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.DocumentManagement.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Policy.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Client.UserProfiles.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.SecureStoreService.Server.Security.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Excel.Server.Udf.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.WorkflowActions.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Security.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.BusinessData.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Search.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Data.Edm.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Data.OData.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Client.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Client.Runtime.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\System.Spatial.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.Search.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Taxonomy.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Portal.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.SharePoint.Publishing.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.UserProfiles.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Server.Search.Connector.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.DocumentManagement.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\Microsoft.Office.Policy.xml
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\de\Microsoft.Data.Edm.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\es\Microsoft.Data.Edm.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\fr\Microsoft.Data.Edm.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\it\Microsoft.Data.Edm.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\ja\Microsoft.Data.Edm.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\ko\Microsoft.Data.Edm.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\ru\Microsoft.Data.Edm.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\zh-Hans\Microsoft.Data.Edm.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\zh-Hant\Microsoft.Data.Edm.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\de\Microsoft.Data.OData.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\es\Microsoft.Data.OData.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\fr\Microsoft.Data.OData.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\it\Microsoft.Data.OData.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\ja\Microsoft.Data.OData.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\ko\Microsoft.Data.OData.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\ru\Microsoft.Data.OData.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\zh-Hans\Microsoft.Data.OData.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\zh-Hant\Microsoft.Data.OData.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\de\System.Spatial.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\es\System.Spatial.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\fr\System.Spatial.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\it\System.Spatial.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\ja\System.Spatial.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\ko\System.Spatial.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\ru\System.Spatial.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\zh-Hans\System.Spatial.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\bin\Debug\zh-Hant\System.Spatial.resources.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\obj\Debug\SPCustomListFormDemo.csprojResolveAssemblyReference.cache
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\obj\Debug\ik.SharePoint2010.SPCustomListFormDemo.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SPCustomListFormDemo\obj\Debug\ik.SharePoint2010.SPCustomListFormDemo.pdb

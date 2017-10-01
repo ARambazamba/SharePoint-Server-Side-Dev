@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="7740b71d-52e9-48e0-91a6-5ef23b57f6c4" Scope="Web" Title="Sales Leads List">
+  <ElementManifests>
+    <ElementManifest Location="SalesLeadsInstance\Elements.xml" />
+    <ElementManifest Location="SalesLeads\Elements.xml" />
+    <ElementFile Location="SalesLeads\Schema.xml" />
+  </ElementManifests>
+</Feature>

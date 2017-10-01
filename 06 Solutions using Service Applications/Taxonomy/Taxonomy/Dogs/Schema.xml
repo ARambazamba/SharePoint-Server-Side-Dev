@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<List xmlns:ows="Microsoft SharePoint" Title="Dogs" FolderCreation="FALSE" Direction="$Resources:Direction;" Url="Lists/Dogs" BaseType="0" xmlns="http://schemas.microsoft.com/sharepoint/" EnableContentTypes="TRUE">
+  <MetaData>
+    <ContentTypes>
+      
+      
+    <ContentType ID="0x0100DBF5F13C103C41F1878539F6FD9E07D6" Name="Dog" Group="Custom Content Types" Description="My Dog Content Type" Inherits="TRUE" Version="0"><FieldRefs><FieldRef ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" DisplayName="$Resources:core,First_Name;" Name="FirstName" /><FieldRef ID="{8061f112-6339-4851-a846-8fb7b3e8cf3f}" DisplayName="Breed" Required="FALSE" Name="Breed" /></FieldRefs></ContentType></ContentTypes>
+    <Fields>
+      
+    <Field ID="{4a722dd4-d406-4356-93f9-2550b8f50dd0}" Name="FirstName" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FirstName" Group="$Resources:core,Person_Event_Columns;" DisplayName="$Resources:core,First_Name;" Type="Text" /><Field ID="{8061f112-6339-4851-a846-8fb7b3e8cf3f}" Name="Breed" DisplayName="Breed" Type="Choice" Required="FALSE" Group="Integrations"><CHOICES><CHOICE>Whippet</CHOICE><CHOICE>Greyhound</CHOICE><CHOICE>Saluki</CHOICE><CHOICE>Azawakh</CHOICE></CHOICES><Default>Whippet</Default></Field></Fields>
+    <Views>
+      
+      
+    <View BaseViewID="0" Type="HTML" MobileView="TRUE" TabularView="FALSE">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitleNoMenu"></FieldRef></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="Modified" Ascending="FALSE"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="AddNewAnnouncement" Location="Resource(wss,addnewitem)" />
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_ONET_HOME)" />
+        </ParameterBindings>
+      </View><View BaseViewID="1" Type="HTML" WebPartZoneID="Main" DisplayName="$Resources:core,objectiv_schema_mwsidcamlidC24;" DefaultView="TRUE" MobileView="TRUE" MobileDefaultView="TRUE" SetupPath="pages\viewpage.aspx" ImageUrl="/_layouts/15/images/generic.png?rev=23" Url="AllItems.aspx">
+        <Toolbar Type="Standard" />
+        <XslLink Default="TRUE">main.xsl</XslLink>
+        <JSLink>clienttemplates.js</JSLink>
+        <RowLimit Paged="TRUE">30</RowLimit>
+        <ViewFields>
+          
+        <FieldRef Name="LinkTitle"></FieldRef><FieldRef Name="FirstName" /><FieldRef Name="Breed" /></ViewFields>
+        <Query>
+          <OrderBy>
+            
+          <FieldRef Name="ID"></FieldRef></OrderBy>
+        </Query>
+        <ParameterBindings>
+          <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noXinviewofY_LIST)" />
+          <ParameterBinding Name="NoAnnouncementsHowTo" Location="Resource(wss,noXinviewofY_DEFAULT)" />
+        </ParameterBindings>
+      </View></Views>
+    <Forms>
+      <Form Type="DisplayForm" Url="DispForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="EditForm" Url="EditForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+      <Form Type="NewForm" Url="NewForm.aspx" SetupPath="pages\form.aspx" WebPartZoneID="Main" />
+    </Forms>
+  </MetaData>
+</List>

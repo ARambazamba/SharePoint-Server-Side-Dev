@@ -1,0 +1,2 @@
+D:\Dev\02 Server Object Model Basics\BasicFileOperations\BasicFileOperations\bin\Debug\BasicFileOperations.exe.config
+D:\SharePoint 2013 Dev MOC\Demos\03\BasicFileOperations\BasicFileOperations\bin\Debug\BasicFileOperations.exe.config

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="EventReceivers Feature1" Id="4d164d13-c1dc-4894-885c-87981fcca573" Scope="Web">
+  <ElementManifests>
+    <ElementManifest Location="AutoTitleReceiver\Elements.xml" />
+    <ElementManifest Location="TitleChangeSyncrReceiver\Elements.xml" />
+  </ElementManifests>
+</Feature>

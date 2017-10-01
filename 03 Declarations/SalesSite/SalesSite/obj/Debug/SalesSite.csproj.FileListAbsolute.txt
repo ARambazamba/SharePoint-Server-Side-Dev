@@ -1,0 +1,5 @@
+D:\SharePoint 2013 Dev MOC\Demos\13\SalesSite\SalesSite\bin\Debug\SalesSite.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SalesSite\SalesSite\bin\Debug\SalesSite.pdb
+D:\SharePoint 2013 Dev MOC\Demos\13\SalesSite\SalesSite\obj\Debug\SalesSite.csprojResolveAssemblyReference.cache
+D:\SharePoint 2013 Dev MOC\Demos\13\SalesSite\SalesSite\obj\Debug\SalesSite.dll
+D:\SharePoint 2013 Dev MOC\Demos\13\SalesSite\SalesSite\obj\Debug\SalesSite.pdb

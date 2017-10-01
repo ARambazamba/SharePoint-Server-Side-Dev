@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="97685bfe-3af7-4512-a42a-25ef855bb7c2" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ListTimerJob.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="ListTimerJob_TimerJobDemo\Feature.xml" />
+  </FeatureManifests>
+</Solution>

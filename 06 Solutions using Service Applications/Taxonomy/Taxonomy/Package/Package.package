@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="18e759a5-158e-4a8a-b02b-2b7269aa2115" solutionId="18e759a5-158e-4a8a-b02b-2b7269aa2115" resetWebServer="false" sharePointProductVersion="15.0" name="Taxonomy" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="b366899a-f29a-414c-8963-07d4bfa33297" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="1e6ab4f6-4c0c-4f75-9743-4b3256ee46cd" />
+  </projectItems>
+</package>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="3c94c188-0859-4242-ba3c-7f61f6ec8baa" solutionId="3c94c188-0859-4242-ba3c-7f61f6ec8baa" resetWebServer="false" sharePointProductVersion="15.0" name="StatusBarMessage" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="bdec29de-add5-4a0d-b3c1-964f3f65f588" />
+  </features>
+</package>

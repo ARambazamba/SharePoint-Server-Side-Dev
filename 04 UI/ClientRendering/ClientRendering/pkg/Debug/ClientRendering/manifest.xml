@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="1cb92b20-b136-4db0-9914-46af9255e0f1" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="ClientRendering.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\ClientRendering\productsRender.js" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="ClientRendering_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
