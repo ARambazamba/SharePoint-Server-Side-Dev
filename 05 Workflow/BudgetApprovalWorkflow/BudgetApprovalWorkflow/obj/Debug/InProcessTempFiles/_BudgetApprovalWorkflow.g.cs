@@ -11,7 +11,7 @@
 namespace XamlStaticHelperNamespace {
     
     
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("XamlBuildTask", "4.0.0.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("XamlBuildTask", "15.0.0.0")]
     internal class _XamlStaticHelper {
         
         private static System.WeakReference schemaContextField;
@@ -67,9 +67,9 @@ namespace XamlStaticHelperNamespace {
                         "9"));
             assemblyList.Add(Load("Microsoft.Activities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad" +
                         "364e35"));
-            assemblyList.Add(Load("Microsoft.SharePoint.DesignTime.Activities.Design, Version=14.0.0.0, Culture=neut" +
+            assemblyList.Add(Load("Microsoft.SharePoint.DesignTime.Activities.Design, Version=15.0.0.0, Culture=neut" +
                         "ral, PublicKeyToken=b03f5f7f11d50a3a"));
-            assemblyList.Add(Load("Microsoft.SharePoint.DesignTime.Activities, Version=14.0.0.0, Culture=neutral, Pu" +
+            assemblyList.Add(Load("Microsoft.SharePoint.DesignTime.Activities, Version=15.0.0.0, Culture=neutral, Pu" +
                         "blicKeyToken=b03f5f7f11d50a3a"));
             assemblyList.Add(System.Reflection.Assembly.GetExecutingAssembly());
             return assemblyList;
