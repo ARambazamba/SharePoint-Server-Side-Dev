@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="4fe35522-6100-408f-bcef-9ce987af7e3d" SharePointProductVersion="15.0">
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="4fe35522-6100-408f-bcef-9ce987af7e3d" SharePointProductVersion="16.0">
   <Assemblies>
     <Assembly Location="ik.SharePoint2010.SPCustomListFormDemo.dll" DeploymentTarget="GlobalAssemblyCache" />
   </Assemblies>

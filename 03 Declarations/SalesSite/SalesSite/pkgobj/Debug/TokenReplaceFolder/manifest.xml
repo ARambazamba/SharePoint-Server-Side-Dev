@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="2b29a417-9f19-40fa-a1c1-ab1e2c883954" SharePointProductVersion="15.0">
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="2b29a417-9f19-40fa-a1c1-ab1e2c883954" SharePointProductVersion="16.0">
   <TemplateFiles>
     <TemplateFile Location="SiteTemplates\SalesSiteDefinition\default.aspx" />
     <TemplateFile Location="SiteTemplates\SalesSiteDefinition\Xml\onet.xml" />

@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployCustomActions", "DeployCustomActions\DeployCustomActions.csproj", "{6907F9AE-A2F8-407D-89D9-07C158BF9154}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6907F9AE-A2F8-407D-89D9-07C158BF9154}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6907F9AE-A2F8-407D-89D9-07C158BF9154}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6907F9AE-A2F8-407D-89D9-07C158BF9154}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6907F9AE-A2F8-407D-89D9-07C158BF9154}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6907F9AE-A2F8-407D-89D9-07C158BF9154}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6907F9AE-A2F8-407D-89D9-07C158BF9154}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72888541-B3A0-4D19-9355-0F8D8F8ABF8E}
+	EndGlobalSection
+EndGlobal
