@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D7712A03-7AF8-48AA-B31B-8532544A1EC0}</ProjectGuid>
+    <ProjectGuid>{8ECFEF03-0B6A-4284-8411-388038D294D2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Taxonomy</RootNamespace>
-    <AssemblyName>Taxonomy</AssemblyName>
+    <RootNamespace>ECT</RootNamespace>
+    <AssemblyName>ECT</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetOfficeVersion>16.0</TargetOfficeVersion>
     <FileAlignment>512</FileAlignment>
@@ -21,7 +21,7 @@
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
-    <OldToolsVersion>12.0</OldToolsVersion>
+    <OldToolsVersion>4.0</OldToolsVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -54,7 +54,6 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
@@ -62,41 +61,24 @@
     <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ItemAddedDummy\ItemAddedDummy.cs" />
-    <Compile Include="Layouts\Taxonomy\ContentTypes.aspx.cs">
-      <DependentUpon>ContentTypes.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Layouts\Taxonomy\ContentTypes.aspx.designer.cs">
-      <DependentUpon>ContentTypes.aspx.cs</DependentUpon>
-    </Compile>
+    <Compile Include="CustomersModel\Customer.cs" />
+    <Compile Include="CustomersModel\CustomerService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Breed\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{b57d4d2c-491c-43c3-8d5b-10ab6bd43db8}</SharePointProjectItemId>
+    <None Include="CustomersModel\CustomersModel.bdcm" />
+    <None Include="CustomersModel\CustomersModel.bdcm.diagram">
+      <DependentUpon>CustomersModel.bdcm</DependentUpon>
     </None>
-    <None Include="Dogs\DogsInstance\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{8d3a9688-4b12-4a0d-8eb4-7b3a850687aa}</SharePointProjectItemId>
+    <None Include="CustomersModel\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{b6d03373-928d-477c-a27e-f5681db3ebdc}</SharePointProjectItemId>
     </None>
-    <None Include="Dogs\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{75549f55-be7e-4e25-90bd-2bac1d6984ee}</SharePointProjectItemId>
-    </None>
-    <None Include="Dog\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{ef3becc9-1a93-405b-9a23-9c5e7f2d6646}</SharePointProjectItemId>
-    </None>
-    <None Include="Features\Sample Taxonomy\Sample Taxonomy.feature">
-      <FeatureId>{b366899a-f29a-414c-8963-07d4bfa33297}</FeatureId>
-    </None>
-    <None Include="ItemAddedDummy\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{dfa3c6a0-9c53-419d-a4b7-e38b90533c4b}</SharePointProjectItemId>
+    <None Include="Features\Customers BCS Model\Customers BCS Model.feature">
+      <FeatureId>{bcfacc67-dbce-467b-8a68-a0cbde21af46}</FeatureId>
     </None>
     <None Include="key.snk" />
-    <None Include="Layouts\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{1e6ab4f6-4c0c-4f75-9743-4b3256ee46cd}</SharePointProjectItemId>
-    </None>
     <None Include="Package\Package.package">
-      <PackageId>{18e759a5-158e-4a8a-b02b-2b7269aa2115}</PackageId>
+      <PackageId>{656d1763-23ab-4f40-8e7b-76b1eef27083}</PackageId>
     </None>
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
@@ -104,22 +86,13 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="Breed\Elements.xml" />
-    <Content Include="Dogs\DogsInstance\Elements.xml" />
-    <Content Include="Dogs\Elements.xml" />
-    <Content Include="Dogs\Schema.xml" />
-    <Content Include="Dog\Elements.xml">
-      <SubType>Designer</SubType>
+    <Content Include="Features\Customers BCS Model\Customers BCS Model.Template.xml">
+      <DependentUpon>Customers BCS Model.feature</DependentUpon>
     </Content>
-    <Content Include="Features\Sample Taxonomy\Sample Taxonomy.Template.xml">
-      <DependentUpon>Sample Taxonomy.feature</DependentUpon>
-    </Content>
-    <Content Include="ItemAddedDummy\Elements.xml" />
-    <Content Include="Layouts\Taxonomy\ContentTypes.aspx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0'">11.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />

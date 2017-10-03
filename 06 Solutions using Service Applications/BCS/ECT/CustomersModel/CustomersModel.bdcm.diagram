@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<minimalLanguageDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="CustomersModel">
+  <modelRootMoniker Name="/CustomersModel" />
+  <nestedChildShapes>
+    <entityShape Id="cda1f46b-0e95-4a09-aa0a-a373f727529f" absoluteBounds="0.5, 1.375, 1.5, 1.592306315104167">
+      <entityMoniker name="ECT.CustomersModel.Customer" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6ad5a384-0463-4da0-81bf-909cbf51fb19" absoluteBounds="0.515, 1.7850000000000001, 1.4700000000000002, 0.37180582682291663" name="Identifiers" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="06d17cf1-9100-42fb-977e-3cb08e9e9263" absoluteBounds="0.515, 2.1668058268229169, 1.4700000000000002, 0.70050048828125" name="Methods" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </entityShape>
+  </nestedChildShapes>
+</minimalLanguageDiagram>
