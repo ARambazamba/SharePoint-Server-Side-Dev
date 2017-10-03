@@ -73,13 +73,16 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataboundWP.ascx</DependentUpon>
     </Compile>
-    <Compile Include="DemoVisualWP\DemoVisualWP.cs" />
-    <Compile Include="DemoVisualWP\DemoVisualWPUserControl.ascx.cs">
-      <DependentUpon>DemoVisualWPUserControl.ascx</DependentUpon>
+    <Compile Include="DemoVisualWebpart\DemoVisualWebpart.cs" />
+    <Compile Include="DemoVisualWebpart\DemoVisualWebpartUserControl.ascx.cs">
+      <DependentUpon>DemoVisualWebpartUserControl.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DemoVisualWP\DemoVisualWPUserControl.ascx.designer.cs">
-      <DependentUpon>DemoVisualWPUserControl.ascx.cs</DependentUpon>
+    <Compile Include="DemoVisualWebpart\DemoVisualWebpartUserControl.ascx.designer.cs">
+      <DependentUpon>DemoVisualWebpartUserControl.ascx.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Features\WebPartSamples\WebPartSamples.EventReceiver.cs">
+      <DependentUpon>WebPartSamples.feature</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SimpleWebPart\SimpleWebPart.cs" />
@@ -93,9 +96,9 @@
     <None Include="DataboundWP\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{78c8b3b6-9130-416a-934e-15bebe876a1e}</SharePointProjectItemId>
     </None>
-    <None Include="DemoVisualWP\DemoVisualWP.webpart" />
-    <None Include="DemoVisualWP\SharePointProjectItem.spdata">
-      <SharePointProjectItemId>{d758da21-a8a3-41e8-b1cb-2876ed3e480b}</SharePointProjectItemId>
+    <None Include="DemoVisualWebpart\DemoVisualWebpart.webpart" />
+    <None Include="DemoVisualWebpart\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{084ef257-6cff-40f4-af83-1ec5fcd1e441}</SharePointProjectItemId>
     </None>
     <None Include="Features\WebPartSamples\WebPartSamples.feature">
       <FeatureId>{6ebdc70a-b91d-43da-a8e2-5430184ab741}</FeatureId>
@@ -120,8 +123,8 @@
       <LastGenOutput>DataboundWP.ascx.g.cs</LastGenOutput>
     </Content>
     <Content Include="DataboundWP\Elements.xml" />
-    <Content Include="DemoVisualWP\DemoVisualWPUserControl.ascx" />
-    <Content Include="DemoVisualWP\Elements.xml" />
+    <Content Include="DemoVisualWebpart\DemoVisualWebpartUserControl.ascx" />
+    <Content Include="DemoVisualWebpart\Elements.xml" />
     <Content Include="Features\WebPartSamples\WebPartSamples.Template.xml">
       <DependentUpon>WebPartSamples.feature</DependentUpon>
     </Content>

@@ -72,8 +72,8 @@
     <Compile Include="ControlTemplates\FeaturePattern\UserControl1.ascx.designer.cs">
       <DependentUpon>UserControl1.ascx.cs</DependentUpon>
     </Compile>
-    <Compile Include="Features\Feature1\Feature1.EventReceiver.cs">
-      <DependentUpon>Feature1.feature</DependentUpon>
+    <Compile Include="Features\FeaturePattern\FeaturePattern.EventReceiver.cs">
+      <DependentUpon>FeaturePattern.feature</DependentUpon>
     </Compile>
     <Compile Include="Layouts\FeaturePattern\ApplicationPage1.aspx.cs">
       <DependentUpon>ApplicationPage1.aspx</DependentUpon>
@@ -103,7 +103,7 @@
     <None Include="ControlTemplates\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{d97b96d8-1e33-44c4-bb0e-dda7a1377e31}</SharePointProjectItemId>
     </None>
-    <None Include="Features\Feature1\Feature1.feature">
+    <None Include="Features\FeaturePattern\FeaturePattern.feature">
       <FeatureId>{138c0836-5e49-4a80-a7a6-52ab3050a8d4}</FeatureId>
     </None>
     <None Include="ISAPI\SharePointProjectItem.spdata">
@@ -135,8 +135,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ControlTemplates\FeaturePattern\UserControl1.ascx" />
-    <Content Include="Features\Feature1\Feature1.Template.xml">
-      <DependentUpon>Feature1.feature</DependentUpon>
+    <Content Include="Features\FeaturePattern\FeaturePattern.Template.xml">
+      <DependentUpon>FeaturePattern.feature</DependentUpon>
     </Content>
     <Content Include="Layouts\FeaturePattern\ApplicationPage1.aspx" />
     <Content Include="Layouts\FeaturePattern\ApplicationPage2.aspx" />

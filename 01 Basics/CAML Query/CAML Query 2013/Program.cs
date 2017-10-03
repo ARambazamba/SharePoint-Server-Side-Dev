@@ -9,9 +9,8 @@ namespace CAML_Query_2013
     {
         static void Main(string[] args)
         {
-
-            var col = new SPSite("http://sp2016");
-            SPWeb web = col.RootWeb;
+            var site = new SPSite("http://sp2016");
+            SPWeb web = site.RootWeb;
             SPList list = web.Lists["Products"];
 
             SPQuery qry = new SPQuery

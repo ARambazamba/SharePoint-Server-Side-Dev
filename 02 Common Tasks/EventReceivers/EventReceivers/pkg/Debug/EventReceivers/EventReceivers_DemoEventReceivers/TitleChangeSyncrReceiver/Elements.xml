@@ -5,7 +5,7 @@
         <Name>TitleChangeSyncrReceiverItemUpdated</Name>
         <Type>ItemUpdated</Type>
         <Assembly>EventReceivers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=485b6dd4a43c84e7</Assembly>
-        <Class>EventReceivers.TitleChangeSyncrReceiver.TitleChangeSyncrReceiver</Class>
+        <Class>EventReceivers.TitleChangeSyncrReceiver</Class>
         <SequenceNumber>10000</SequenceNumber>
       </Receiver>
   </Receivers>

@@ -15,12 +15,12 @@ namespace BasicFileOperations
         {
 
             SPSite site = new SPSite("http://sp2016");
-            SPWeb web = site.AllWebs["sales"];
+            SPWeb web = site.AllWebs["Sales"];
             SPList list = web.Lists["Orders"];
-            
+                        
             //Export a file
             if (list.BaseTemplate == SPListTemplateType.DocumentLibrary && list.ItemCount > 0)
-            {
+            {                         
                 SPListItem item = list.Items[0];
                 Debug.WriteLine(string.Format("Exporting: {0}", item.Name));
                 Stream input = item.File.OpenBinaryStream();
@@ -39,12 +39,12 @@ namespace BasicFileOperations
             Hashtable props = new Hashtable
                 {
                     {"ContentType", "Document"},
-                    {"Title", "My super demo word file"},
-                    {"DocType", "Bericht"}
+                    {"Title", "My super demo word file"}
                 };
             
             SPFolder folder = list.RootFolder;
             SPFile f = folder.Files.Add(path.Substring(3), file, props, true);
+
             //Change the checkout state
             if (f.CheckOutType == SPFile.SPCheckOutType.None)
             {

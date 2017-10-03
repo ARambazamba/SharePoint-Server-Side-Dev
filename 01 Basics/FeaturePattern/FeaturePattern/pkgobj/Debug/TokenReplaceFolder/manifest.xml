@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="2d1cff03-4f0a-4bce-be7e-5dcda5c0e86d" SharePointProductVersion="15.0">
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="2d1cff03-4f0a-4bce-be7e-5dcda5c0e86d" SharePointProductVersion="16.0">
   <Assemblies>
     <Assembly Location="FeaturePattern.dll" DeploymentTarget="GlobalAssemblyCache">
       <SafeControls>
@@ -7,7 +7,12 @@
       </SafeControls>
     </Assembly>
   </Assemblies>
+  <TemplateFiles>
+    <TemplateFile Location="Layouts\FeaturePattern\ApplicationPage1.aspx" />
+    <TemplateFile Location="Layouts\FeaturePattern\ApplicationPage2.aspx" />
+    <TemplateFile Location="ControlTemplates\FeaturePattern\UserControl1.ascx" />
+  </TemplateFiles>
   <FeatureManifests>
-    <FeatureManifest Location="FeaturePattern_Feature1\Feature.xml" />
+    <FeatureManifest Location="FeaturePattern_FeaturePattern\Feature.xml" />
   </FeatureManifests>
 </Solution>
