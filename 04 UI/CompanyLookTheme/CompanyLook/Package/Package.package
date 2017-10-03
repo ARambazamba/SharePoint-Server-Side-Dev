@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="71df7928-8caf-43b5-8cb0-637dbb2ddc00" solutionId="71df7928-8caf-43b5-8cb0-637dbb2ddc00" resetWebServer="false" title="Company Look Theme" description="Company Look Theme" sharePointProductVersion="16.0" name="CompanyLookTheme" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="595cee01-4b1b-4739-9059-da4339b277ff" />
+    <featureReference itemId="44c412e2-b6ec-4cf1-8d08-5045139992c6" />
+  </features>
+</package>

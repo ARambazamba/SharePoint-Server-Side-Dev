@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Title="$Resources:Feature_Title" Creator="yuriburger.net" Description="$Resources:Feature_Description" Id="99ac6a94-beca-4334-a182-b5378a36425e" ReceiverAssembly="CompanyLookTheme, Version=1.0.0.0, Culture=neutral, PublicKeyToken=038d7a80c5dcf54c" ReceiverClass="CompanyLook.Features.CompanyLookInstallation.CompanyLookInstallationEventReceiver" Scope="Web" SolutionId="71df7928-8caf-43b5-8cb0-637dbb2ddc00" Version="1.0.0.0">
+  <ActivationDependencies>
+    <ActivationDependency FeatureDescription="$Resources:Feature_Description" FeatureId="13ee533b-985f-4bf0-a1af-93eb42c3213a" FeatureTitle="$Resources:Feature_Title" />
+  </ActivationDependencies>
+  <ElementManifests>
+    <ElementFile Location="Resources\Resources.resx" />
+    <ElementFile Location="Resources\Resources.nl-NL.resx" />
+  </ElementManifests>
+</Feature>

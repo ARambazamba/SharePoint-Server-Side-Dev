@@ -4,12 +4,12 @@
     <ContentTypes>
       
       
-    <ContentType ID="0x0100b11297ec3eb14e11badef8c4d9761ce1" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{d866c2db-2f8f-4311-b478-e35675f92b7d}" Name="Category1" /><FieldRef ID="{d2311440-1ed6-46ea-b46d-daa643dc3886}" Name="PercentComplete" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
+    <ContentType ID="0x0100b11297ec3eb14e11badef8c4d9761ce1" Name="ListFieldsContentType"><FieldRefs><FieldRef ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Name="Title" /><FieldRef ID="{d866c2db-2f8f-4311-b478-e35675f92b7d}" Name="Category" /><FieldRef ID="{d2311440-1ed6-46ea-b46d-daa643dc3886}" Name="PercentComplete" /></FieldRefs></ContentType><ContentTypeRef ID="0x01">
         <Folder TargetName="Item" />
       </ContentTypeRef><ContentTypeRef ID="0x0120" /></ContentTypes>
     <Fields>
       
-    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="Category1" ID="{d866c2db-2f8f-4311-b478-e35675f92b7d}" DisplayName="Category" Type="Text" /><Field ID="{d2311440-1ed6-46ea-b46d-daa643dc3886}" Name="PercentComplete" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="PercentComplete" Group="$Resources:core,Issue_Task_Columns;" Type="Number" Percentage="TRUE" Min="0" Max="1" DisplayName="Price" /></Fields>
+    <Field ID="{fa564e0f-0c70-4ab9-b863-0177e6ddd247}" Type="Text" Name="Title" DisplayName="$Resources:core,Title;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" MaxLength="255" /><Field Name="Category" ID="{d866c2db-2f8f-4311-b478-e35675f92b7d}" DisplayName="Category" Type="Text" /><Field ID="{d2311440-1ed6-46ea-b46d-daa643dc3886}" Name="PercentComplete" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="PercentComplete" Group="$Resources:core,Issue_Task_Columns;" Type="Number" Percentage="TRUE" Min="0" Max="1" DisplayName="Price" /></Fields>
     <Views>
       
       

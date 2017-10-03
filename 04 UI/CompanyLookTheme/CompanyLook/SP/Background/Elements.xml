@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Background" Url="SiteAssets">
+    <File Path="Background\Background.png" Url="Background.png" Type="GhostableInLibrary" />
+  </Module>
+</Elements>

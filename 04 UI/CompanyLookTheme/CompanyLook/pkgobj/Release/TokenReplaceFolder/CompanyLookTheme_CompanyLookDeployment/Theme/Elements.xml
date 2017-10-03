@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Theme" Url="_catalogs/theme/15">
+    <File Path="Theme\companylook-palette001.spcolor" Url="companylook-palette001.spcolor" Type="GhostableInLibrary" />
+    <File Path="Theme\companylook-fontscheme001.spfont" Url="companylook-fontscheme001.spfont" Type="GhostableInLibrary" />
+  </Module>
+</Elements>

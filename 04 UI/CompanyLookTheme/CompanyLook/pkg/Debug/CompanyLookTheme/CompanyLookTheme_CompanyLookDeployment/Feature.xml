@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Creator="yuriburger.net" Description="Adds the Theme files to the current Site" Id="13ee533b-985f-4bf0-a1af-93eb42c3213a" Scope="Site" SolutionId="71df7928-8caf-43b5-8cb0-637dbb2ddc00" Title="CompanyLook Theme Deployment" Version="1.0.0.0">
+  <ElementManifests>
+    <ElementManifest Location="Theme\Elements.xml" />
+    <ElementFile Location="Theme\companylook-palette001.spcolor" />
+    <ElementFile Location="Theme\companylook-fontscheme001.spfont" />
+    <ElementManifest Location="Background\Elements.xml" />
+    <ElementFile Location="Background\Background.png" />
+  </ElementManifests>
+</Feature>

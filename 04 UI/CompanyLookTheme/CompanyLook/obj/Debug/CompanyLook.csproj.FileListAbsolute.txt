@@ -1,0 +1,4 @@
+C:\Users\SPAdmin\Documents\Visual Studio 2012\Projects\CompanyLook\CompanyLook\bin\Debug\CompanyLook.dll
+C:\Users\SPAdmin\Documents\Visual Studio 2012\Projects\CompanyLook\CompanyLook\bin\Debug\CompanyLook.pdb
+C:\Users\SPAdmin\Documents\Visual Studio 2012\Projects\CompanyLook\CompanyLook\obj\Debug\CompanyLook.dll
+C:\Users\SPAdmin\Documents\Visual Studio 2012\Projects\CompanyLook\CompanyLook\obj\Debug\CompanyLook.pdb

@@ -1,0 +1,2 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" AlwaysForceInstall="TRUE" Id="fde12415-7da7-46f7-96ca-d634db287323" ReceiverAssembly="CompanyLookTheme, Version=1.0.0.0, Culture=neutral, PublicKeyToken=09307f2651baf87e" ReceiverClass="CompanyLook.Features.Feature1.Feature1EventReceiver" Scope="Web" Title="CompanyLookInstall"></Feature>

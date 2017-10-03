@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="71df7928-8caf-43b5-8cb0-637dbb2ddc00" Title="Company Look Theme" Description="Company Look Theme" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="CompanyLookTheme.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="CompanyLookTheme_CompanyLookDeployment\Feature.xml" />
+    <FeatureManifest Location="CompanyLookTheme_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>
