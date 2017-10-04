@@ -20,7 +20,7 @@ namespace BasicFileOperations
                         
             //Export a file
             if (list.BaseTemplate == SPListTemplateType.DocumentLibrary && list.ItemCount > 0)
-            {
+            {                         
                 SPListItem item = list.Items[0];
                 Debug.WriteLine(string.Format("Exporting: {0}", item.Name));
                 Stream input = item.File.OpenBinaryStream();
