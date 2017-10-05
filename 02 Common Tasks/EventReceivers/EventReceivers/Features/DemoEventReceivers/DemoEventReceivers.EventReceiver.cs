@@ -14,13 +14,14 @@ namespace EventReceivers.Features.DemoEventReceivers
             try
             {
                 SPWeb web = (SPWeb)properties.Feature.Parent;
-
                 SPList list = web.Lists["MyList"];
-                string AssemblyName = Assembly.GetExecutingAssembly().FullName;
-                string EventReceiverImplClass = "EventReceivers.AutoTitleReceiver";
 
-                list.EventReceivers.Add(SPEventReceiverType.ItemAdded, AssemblyName, EventReceiverImplClass);
-
+                if (list.BaseTemplate == SPListTemplateType.DocumentLibrary)
+                {
+                    string AssemblyName = Assembly.GetExecutingAssembly().FullName;
+                    string EventReceiverImplClass = "EventReceivers.AutoTitleReceiver";
+                    list.EventReceivers.Add(SPEventReceiverType.ItemAdded, AssemblyName, EventReceiverImplClass);
+                }
             }
             catch (Exception)
             {

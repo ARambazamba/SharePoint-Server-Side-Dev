@@ -15,6 +15,8 @@ namespace SP2013WebParts.SimpleWebPart
         private Label lblMessage;
         private Button btnAction;
 
+
+
         protected override void CreateChildControls()
         {
             lblMessage = new Label { Text = "Initilized by load" };

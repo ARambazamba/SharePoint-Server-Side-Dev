@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="e7ea17e9-6567-42ed-9cdf-6bbfd7b84dcb" SharePointProductVersion="15.0">
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="e7ea17e9-6567-42ed-9cdf-6bbfd7b84dcb" SharePointProductVersion="16.0">
   <Assemblies>
     <Assembly Location="EventReceivers.dll" DeploymentTarget="GlobalAssemblyCache" />
   </Assemblies>

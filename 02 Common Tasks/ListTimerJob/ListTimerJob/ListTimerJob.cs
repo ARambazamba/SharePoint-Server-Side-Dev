@@ -8,7 +8,7 @@ using Microsoft.SharePoint.Administration;
 
 namespace ListTimerJob
 {
-    class ListTimerJob : SPJobDefinition
+    public class ListTimerJob : SPJobDefinition
     {
         public ListTimerJob() : base()
         {
@@ -44,12 +44,11 @@ namespace ListTimerJob
             SPList list;
             try
             {
-                list = web.Lists["TimerJobExecution"];
+                list = web.Lists["TimerJobExecution"];                
             }
             catch (Exception)
             {
-                Guid id = web.Lists.Add("TimerJobExecution", "A list to record Timer Job Execution",
-                                        SPListTemplateType.GenericList);
+                Guid id = web.Lists.Add("TimerJobExecution", "A list to record Timer Job Execution",                              SPListTemplateType.GenericList);
                 list = web.Lists[id];
             }
             return list;

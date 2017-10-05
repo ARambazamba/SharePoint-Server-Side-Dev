@@ -54,7 +54,6 @@ namespace PersistingValues.CONTROLTEMPLATES.PersistingValues
             }
             list.RootFolder.Properties.Add(valueKey, txtListParameter.Text);
             list.RootFolder.Update();
-            list.Update();
         }
 
         protected void SaveValueToWebPropertyBag(TextBox txtBox)
@@ -66,7 +65,6 @@ namespace PersistingValues.CONTROLTEMPLATES.PersistingValues
 
             SPContext.Current.Web.Properties.Add(txtBox.ID, txtBox.Text);
             SPContext.Current.Web.Properties.Update();
-            SPContext.Current.Web.Update();
         }
     }
 }

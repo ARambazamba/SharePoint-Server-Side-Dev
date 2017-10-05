@@ -2,12 +2,12 @@
 <webParts>
   <webPart xmlns="http://schemas.microsoft.com/WebPart/v3">
     <metaData>
-      <type name="SP2013WebParts.DemoVisualWP.DemoVisualWP, $SharePoint.Project.AssemblyFullName$" />
+      <type name="SP2013WebParts.DemoVisualWebpart.DemoVisualWebpart, $SharePoint.Project.AssemblyFullName$" />
       <importErrorMessage>$Resources:core,ImportErrorMessage;</importErrorMessage>
     </metaData>
     <data>
       <properties>
-        <property name="Title" type="string">SP2013WebParts - DemoVisualWP</property>
+        <property name="Title" type="string">SP2013WebParts - DemoVisualWebpart</property>
         <property name="Description" type="string">My Visual Web Part</property>
       </properties>
     </data>
