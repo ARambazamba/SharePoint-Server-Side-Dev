@@ -84,9 +84,9 @@ namespace Taxonomy.Layouts.Taxonomy
 
             //Set Workflow Template
 
-            SPWorkflowTemplate template = web.WorkflowTemplates.GetTemplateByName("InvoiceWorkflow",
-                web.Locale);
-// Create a new workflow association.
+            SPWorkflowTemplate template = web.WorkflowTemplates.GetTemplateByName("InvoiceWorkflow", web.Locale);
+            
+            // Create a new workflow association.
             SPWorkflowAssociation association = SPWorkflowAssociation.CreateWebContentTypeAssociation(template, "Process Invoice", "Invoice Tasks", "Process Invoice History");
 
             if (ct.WorkflowAssociations.GetAssociationByName("Process Invoice", web.Locale) == null)
