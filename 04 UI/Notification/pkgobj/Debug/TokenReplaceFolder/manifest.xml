@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="00e30b6c-f75b-4bd8-a944-5a65993cbaac" SharePointProductVersion="15.0">
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="00e30b6c-f75b-4bd8-a944-5a65993cbaac" SharePointProductVersion="16.0">
   <Assemblies>
     <Assembly Location="Notification.dll" DeploymentTarget="GlobalAssemblyCache" />
   </Assemblies>

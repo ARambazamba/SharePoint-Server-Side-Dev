@@ -3,4 +3,13 @@
   <PropertyGroup>
     <SharePointSiteUrl>http://sp2016/</SharePointSiteUrl>
   </PropertyGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{C1CDDADD-2546-481F-9697-4EA41081F2FC}">
+        <ProjectStore>
+          <AutoRetract>false</AutoRetract>
+        </ProjectStore>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
