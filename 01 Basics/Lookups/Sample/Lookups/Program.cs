@@ -7,8 +7,6 @@ namespace Lookups
 {
     class Program
     {
-
-
         static void Main(string[] args)
         {
             string personListName = "Person";
@@ -31,7 +29,7 @@ namespace Lookups
                 var jobCol = list.Fields.AddLookup("Jobs", joblist.ID, true);
                 SPFieldLookup jobLookup = (SPFieldLookup)list.Fields[jobCol];
                 jobLookup.LookupField = joblist.Fields["Title"].InternalName;
-                jobLookup.Title = "Job";
+                jobLookup.Title = "Job";                
                 jobLookup.Update();
                 list.Update();
 
